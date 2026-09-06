@@ -1,0 +1,128 @@
+{
+  "started_at": "2026-08-15T01:11:43.323291+00:00",
+  "mode": "random_search",
+  "script": "run_random_search_v4.py",
+  "model": "qwen2.5-coder:1.5b",
+  "run_label": "rs_pop50_gen15_n50_v4",
+  "matched_ga_run": "pop50_gen15_n50_v4",
+  "energy_backend_requested": "rapl_sysfs",
+  "energy_backend_resolved": "rapl_sysfs",
+  "energy_is_real_measurement": true,
+  "n_samples": 750,
+  "sample_seed": 99,
+  "seed_increment": 1,
+  "reps": 5,
+  "rep_seeds": [
+    99,
+    100,
+    101,
+    102,
+    103
+  ],
+  "train_size": 50,
+  "train_ids": [
+    "136-A-bug-17216301-17216311",
+    "139-A-bug-14564975-14564980",
+    "139-C-bug-1045114-1045126",
+    "14-B-bug-3846928-3846936",
+    "140-D-bug-8373362-8373372",
+    "149-B-bug-1167538-1167615",
+    "166-E-bug-4707989-4708049",
+    "169-A-bug-1409447-1411731",
+    "173-A-bug-4169928-4169966",
+    "219-B-bug-2174606-2174633",
+    "257-A-bug-4214456-4214472",
+    "291-B-bug-3539893-3539896",
+    "298-B-bug-17565799-17565819",
+    "304-A-bug-14300606-14315458",
+    "304-A-bug-14302685-14315458",
+    "33-C-bug-671886-671888",
+    "337-C-bug-13885430-13885725",
+    "34-A-bug-7646053-7646105",
+    "350-A-bug-13284533-13284599",
+    "362-B-bug-18100395-18100408",
+    "365-A-bug-12905209-12905248",
+    "389-C-bug-11738293-11738308",
+    "4-D-bug-17823560-17823584",
+    "408-B-bug-9096840-9096851",
+    "43-B-bug-2629143-2629156",
+    "431-A-bug-13546989-13547094",
+    "436-B-bug-6884376-6884684",
+    "448-A-bug-18270347-18270389",
+    "452-A-bug-14565534-14565547",
+    "46-D-bug-208074-208422",
+    "472-C-bug-11315043-11315053",
+    "478-A-bug-17157936-17157945",
+    "488-A-bug-15410864-15410870",
+    "5-B-bug-10349903-10349909",
+    "510-A-bug-17161470-17161497",
+    "519-C-bug-13287280-13287402",
+    "526-B-bug-10594083-10594094",
+    "534-B-bug-11003189-11003208",
+    "544-A-bug-12685461-12685474",
+    "550-D-bug-12590078-12590244",
+    "569-B-bug-14103553-14103566",
+    "586-A-bug-17218104-17218138",
+    "60-A-bug-612164-612165",
+    "604-A-bug-15615666-15615740",
+    "61-B-bug-653606-653608",
+    "626-B-bug-16009555-16009580",
+    "651-A-bug-18221346-18221404",
+    "677-A-bug-18241844-18241911",
+    "680-B-bug-18330497-18330569",
+    "9-B-bug-1970440-1970445"
+  ],
+  "search_space": [
+    [
+      "pi_a",
+      "temperature"
+    ],
+    [
+      "pi_a",
+      "top_p"
+    ],
+    [
+      "pi_a",
+      "top_k"
+    ],
+    [
+      "pi_r",
+      "temperature"
+    ],
+    [
+      "pi_r",
+      "top_p"
+    ],
+    [
+      "pi_r",
+      "top_k"
+    ],
+    [
+      "pi_v",
+      "retry"
+    ],
+    [
+      "pi_o",
+      "temperature"
+    ],
+    [
+      "pi_o",
+      "top_p"
+    ],
+    [
+      "pi_o",
+      "top_k"
+    ],
+    [
+      "pi_o",
+      "retry"
+    ]
+  ],
+  "min_feasible_threshold": 1,
+  "n_workers": 4,
+  "feasibility_criterion": "per problem: correctness > 0 (compiles AND passes >=1 test)",
+  "objective_aggregation": "F1 (complexity) and F3 (energy) averaged over FEASIBLE problems only; F2 (correctness) averaged over ALL problems. No compile-failure penalty is folded into F1/F3 \u2014 feasibility is handled as an NSGA-II constraint.",
+  "test_suite": "official: positive cases enumerated by each problem's test-valid.sh (NOT every heldout-input-pos* file on disk, which is ~1.09x larger); quarantined unsound cases excluded, see benchmarks/codeflaws/adapter.py _QUARANTINED_TESTS",
+  "reported_front": "filtered to feasible (G<=0) solutions only",
+  "measurement": "v3.1 two-phase via run_ga._mean_fitness_over \u2014 the SAME function NSGA-II calls per candidate. Phase A concurrent with no measurement, thread-pool join as barrier, Phase B serial inside the RAPL window."
+}

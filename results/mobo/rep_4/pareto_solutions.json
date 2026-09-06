@@ -1,0 +1,1206 @@
+[
+  {
+    "policy": {
+      "pi_a": {
+        "temperature": 0.5041242373436883,
+        "top_p": 0.6291128875254596,
+        "top_k": 82
+      },
+      "pi_r": {
+        "temperature": 0.5556230755585804,
+        "top_p": 0.8433226530572954,
+        "top_k": 43
+      },
+      "pi_v": {
+        "retry": 2
+      },
+      "pi_o": {
+        "temperature": 0.6330649777731928,
+        "top_p": 0.9969298876698209,
+        "top_k": 95,
+        "retry": 3
+      }
+    },
+    "fitness": {
+      "cl": 9.512195121951219,
+      "correctness": 0.5647290525977349,
+      "energy": 17.114797389876365
+    }
+  },
+  {
+    "policy": {
+      "pi_a": {
+        "temperature": 0.673305956633949,
+        "top_p": 0.5737445904370178,
+        "top_k": 43
+      },
+      "pi_r": {
+        "temperature": 0.551426229031314,
+        "top_p": 0.7352180750190087,
+        "top_k": 71
+      },
+      "pi_v": {
+        "retry": 1
+      },
+      "pi_o": {
+        "temperature": 0.5964019871346956,
+        "top_p": 0.8760315398470915,
+        "top_k": 32,
+        "retry": 4
+      }
+    },
+    "fitness": {
+      "cl": 9.11111111111111,
+      "correctness": 0.6392418910274211,
+      "energy": 19.0987108546485
+    }
+  },
+  {
+    "policy": {
+      "pi_a": {
+        "temperature": 0.6157092963711696,
+        "top_p": 0.859695773035817,
+        "top_k": 60
+      },
+      "pi_r": {
+        "temperature": 0.19330219591023412,
+        "top_p": 0.5759361144725572,
+        "top_k": 56
+      },
+      "pi_v": {
+        "retry": 3
+      },
+      "pi_o": {
+        "temperature": 0.7910688139016447,
+        "top_p": 0.563851174426216,
+        "top_k": 56,
+        "retry": 7
+      }
+    },
+    "fitness": {
+      "cl": 9.047619047619047,
+      "correctness": 0.5861787412685328,
+      "energy": 20.076538937160986
+    }
+  },
+  {
+    "policy": {
+      "pi_a": {
+        "temperature": 0.7339832816328001,
+        "top_p": 0.8791872088981675,
+        "top_k": 29
+      },
+      "pi_r": {
+        "temperature": 0.8360860050152379,
+        "top_p": 0.8970413025569184,
+        "top_k": 32
+      },
+      "pi_v": {
+        "retry": 2
+      },
+      "pi_o": {
+        "temperature": 0.2643141172140945,
+        "top_p": 0.9166314332069934,
+        "top_k": 35,
+        "retry": 4
+      }
+    },
+    "fitness": {
+      "cl": 8.564102564102564,
+      "correctness": 0.5162285326622009,
+      "energy": 18.157547881325456
+    }
+  },
+  {
+    "policy": {
+      "pi_a": {
+        "temperature": 0.7106080349163428,
+        "top_p": 0.8730836948977426,
+        "top_k": 38
+      },
+      "pi_r": {
+        "temperature": 0.27216137772489213,
+        "top_p": 0.5923068410165189,
+        "top_k": 63
+      },
+      "pi_v": {
+        "retry": 2
+      },
+      "pi_o": {
+        "temperature": 0.3965422769082497,
+        "top_p": 0.5652146806150709,
+        "top_k": 49,
+        "retry": 3
+      }
+    },
+    "fitness": {
+      "cl": 9.090909090909092,
+      "correctness": 0.5950594465606831,
+      "energy": 17.51405185920694
+    }
+  },
+  {
+    "policy": {
+      "pi_a": {
+        "temperature": 0.6500028673056757,
+        "top_p": 0.7844778270848446,
+        "top_k": 62
+      },
+      "pi_r": {
+        "temperature": 0.4997320614981584,
+        "top_p": 0.689374396179396,
+        "top_k": 76
+      },
+      "pi_v": {
+        "retry": 5
+      },
+      "pi_o": {
+        "temperature": 0.6700139237345675,
+        "top_p": 0.5760580007244058,
+        "top_k": 62,
+        "retry": 2
+      }
+    },
+    "fitness": {
+      "cl": 8.256410256410257,
+      "correctness": 0.5228039988153526,
+      "energy": 19.37542320924368
+    }
+  },
+  {
+    "policy": {
+      "pi_a": {
+        "temperature": 0.6250996407994481,
+        "top_p": 0.7068198406376581,
+        "top_k": 76
+      },
+      "pi_r": {
+        "temperature": 0.5706380195170853,
+        "top_p": 0.9876306148258992,
+        "top_k": 23
+      },
+      "pi_v": {
+        "retry": 2
+      },
+      "pi_o": {
+        "temperature": 0.36704755697256186,
+        "top_p": 1.0,
+        "top_k": 10,
+        "retry": 3
+      }
+    },
+    "fitness": {
+      "cl": 9.41025641025641,
+      "correctness": 0.5058797072073302,
+      "energy": 17.10034895425267
+    }
+  },
+  {
+    "policy": {
+      "pi_a": {
+        "temperature": 1.0,
+        "top_p": 0.55239476423401,
+        "top_k": 10
+      },
+      "pi_r": {
+        "temperature": 0.7873722508065972,
+        "top_p": 0.5,
+        "top_k": 100
+      },
+      "pi_v": {
+        "retry": 8
+      },
+      "pi_o": {
+        "temperature": 1.0,
+        "top_p": 1.0,
+        "top_k": 10,
+        "retry": 8
+      }
+    },
+    "fitness": {
+      "cl": 9.045454545454545,
+      "correctness": 0.5765466902221744,
+      "energy": 17.877447881060494
+    }
+  },
+  {
+    "policy": {
+      "pi_a": {
+        "temperature": 0.5331229662774136,
+        "top_p": 0.8058323721483158,
+        "top_k": 29
+      },
+      "pi_r": {
+        "temperature": 0.7760284805507477,
+        "top_p": 0.9361789288843122,
+        "top_k": 31
+      },
+      "pi_v": {
+        "retry": 2
+      },
+      "pi_o": {
+        "temperature": 0.2560256155950953,
+        "top_p": 0.9694858609465354,
+        "top_k": 35,
+        "retry": 3
+      }
+    },
+    "fitness": {
+      "cl": 7.9411764705882355,
+      "correctness": 0.4099803899859027,
+      "energy": 17.989742442427392
+    }
+  },
+  {
+    "policy": {
+      "pi_a": {
+        "temperature": 1.0,
+        "top_p": 0.5,
+        "top_k": 100
+      },
+      "pi_r": {
+        "temperature": 0.0,
+        "top_p": 0.9435581119741625,
+        "top_k": 10
+      },
+      "pi_v": {
+        "retry": 5
+      },
+      "pi_o": {
+        "temperature": 0.006478186212447486,
+        "top_p": 0.5,
+        "top_k": 10,
+        "retry": 1
+      }
+    },
+    "fitness": {
+      "cl": 9.365853658536585,
+      "correctness": 0.5440816780604231,
+      "energy": 17.255838502842956
+    }
+  },
+  {
+    "policy": {
+      "pi_a": {
+        "temperature": 0.0,
+        "top_p": 0.8765454060631217,
+        "top_k": 88
+      },
+      "pi_r": {
+        "temperature": 0.7872307976942249,
+        "top_p": 0.5,
+        "top_k": 100
+      },
+      "pi_v": {
+        "retry": 2
+      },
+      "pi_o": {
+        "temperature": 1.0,
+        "top_p": 1.0,
+        "top_k": 41,
+        "retry": 8
+      }
+    },
+    "fitness": {
+      "cl": 9.045454545454545,
+      "correctness": 0.5817954360415724,
+      "energy": 18.003323048109774
+    }
+  },
+  {
+    "policy": {
+      "pi_a": {
+        "temperature": 1.0,
+        "top_p": 0.5,
+        "top_k": 41
+      },
+      "pi_r": {
+        "temperature": 0.4097861687511419,
+        "top_p": 0.9661008850499243,
+        "top_k": 10
+      },
+      "pi_v": {
+        "retry": 5
+      },
+      "pi_o": {
+        "temperature": 0.9211682329713413,
+        "top_p": 0.9920770471814477,
+        "top_k": 10,
+        "retry": 1
+      }
+    },
+    "fitness": {
+      "cl": 9.024390243902438,
+      "correctness": 0.5442415355661785,
+      "energy": 17.687389871388113
+    }
+  },
+  {
+    "policy": {
+      "pi_a": {
+        "temperature": 1.0,
+        "top_p": 0.8473473266899828,
+        "top_k": 39
+      },
+      "pi_r": {
+        "temperature": 0.3221794113604618,
+        "top_p": 0.9556338326677806,
+        "top_k": 10
+      },
+      "pi_v": {
+        "retry": 2
+      },
+      "pi_o": {
+        "temperature": 1.0,
+        "top_p": 0.9925354966160408,
+        "top_k": 100,
+        "retry": 1
+      }
+    },
+    "fitness": {
+      "cl": 8.863636363636363,
+      "correctness": 0.5373124010884607,
+      "energy": 18.497572309765044
+    }
+  },
+  {
+    "policy": {
+      "pi_a": {
+        "temperature": 0.6188233628790757,
+        "top_p": 1.0,
+        "top_k": 81
+      },
+      "pi_r": {
+        "temperature": 0.5512443359016539,
+        "top_p": 0.9135792852966198,
+        "top_k": 10
+      },
+      "pi_v": {
+        "retry": 2
+      },
+      "pi_o": {
+        "temperature": 1.0,
+        "top_p": 1.0,
+        "top_k": 38,
+        "retry": 5
+      }
+    },
+    "fitness": {
+      "cl": 7.897435897435898,
+      "correctness": 0.5327603839867036,
+      "energy": 19.740600748608976
+    }
+  },
+  {
+    "policy": {
+      "pi_a": {
+        "temperature": 0.0,
+        "top_p": 0.5,
+        "top_k": 36
+      },
+      "pi_r": {
+        "temperature": 1.0,
+        "top_p": 0.7590509017089992,
+        "top_k": 10
+      },
+      "pi_v": {
+        "retry": 8
+      },
+      "pi_o": {
+        "temperature": 1.0,
+        "top_p": 1.0,
+        "top_k": 100,
+        "retry": 8
+      }
+    },
+    "fitness": {
+      "cl": 8.435897435897436,
+      "correctness": 0.5378850493324496,
+      "energy": 19.38449328297308
+    }
+  },
+  {
+    "policy": {
+      "pi_a": {
+        "temperature": 0.2086686981513851,
+        "top_p": 0.5756531965274768,
+        "top_k": 70
+      },
+      "pi_r": {
+        "temperature": 0.5335903937801927,
+        "top_p": 0.8269916882932011,
+        "top_k": 83
+      },
+      "pi_v": {
+        "retry": 8
+      },
+      "pi_o": {
+        "temperature": 1.0,
+        "top_p": 0.8711724241658603,
+        "top_k": 64,
+        "retry": 3
+      }
+    },
+    "fitness": {
+      "cl": 9.076923076923077,
+      "correctness": 0.544728249081994,
+      "energy": 17.359023070770665
+    }
+  },
+  {
+    "policy": {
+      "pi_a": {
+        "temperature": 0.0,
+        "top_p": 1.0,
+        "top_k": 100
+      },
+      "pi_r": {
+        "temperature": 1.0,
+        "top_p": 0.8123317042659759,
+        "top_k": 22
+      },
+      "pi_v": {
+        "retry": 8
+      },
+      "pi_o": {
+        "temperature": 1.0,
+        "top_p": 1.0,
+        "top_k": 100,
+        "retry": 1
+      }
+    },
+    "fitness": {
+      "cl": 8.08108108108108,
+      "correctness": 0.5073733385440987,
+      "energy": 18.323687446220102
+    }
+  },
+  {
+    "policy": {
+      "pi_a": {
+        "temperature": 0.0,
+        "top_p": 1.0,
+        "top_k": 100
+      },
+      "pi_r": {
+        "temperature": 1.0,
+        "top_p": 0.8940652287778901,
+        "top_k": 62
+      },
+      "pi_v": {
+        "retry": 8
+      },
+      "pi_o": {
+        "temperature": 1.0,
+        "top_p": 0.737301227174577,
+        "top_k": 10,
+        "retry": 8
+      }
+    },
+    "fitness": {
+      "cl": 8.945945945945946,
+      "correctness": 0.5059244892438809,
+      "energy": 17.73269087710804
+    }
+  },
+  {
+    "policy": {
+      "pi_a": {
+        "temperature": 1.0,
+        "top_p": 1.0,
+        "top_k": 10
+      },
+      "pi_r": {
+        "temperature": 0.0,
+        "top_p": 0.5361866672778706,
+        "top_k": 100
+      },
+      "pi_v": {
+        "retry": 8
+      },
+      "pi_o": {
+        "temperature": 1.0,
+        "top_p": 0.5,
+        "top_k": 10,
+        "retry": 1
+      }
+    },
+    "fitness": {
+      "cl": 8.571428571428571,
+      "correctness": 0.5434209041795725,
+      "energy": 18.943846244774615
+    }
+  },
+  {
+    "policy": {
+      "pi_a": {
+        "temperature": 1.0,
+        "top_p": 1.0,
+        "top_k": 100
+      },
+      "pi_r": {
+        "temperature": 0.0,
+        "top_p": 0.5479924722178846,
+        "top_k": 74
+      },
+      "pi_v": {
+        "retry": 8
+      },
+      "pi_o": {
+        "temperature": 1.0,
+        "top_p": 0.5,
+        "top_k": 88,
+        "retry": 1
+      }
+    },
+    "fitness": {
+      "cl": 9.186046511627907,
+      "correctness": 0.5455917505539994,
+      "energy": 17.39988871889143
+    }
+  },
+  {
+    "policy": {
+      "pi_a": {
+        "temperature": 0.0,
+        "top_p": 0.5,
+        "top_k": 100
+      },
+      "pi_r": {
+        "temperature": 1.0,
+        "top_p": 0.9837681905308804,
+        "top_k": 100
+      },
+      "pi_v": {
+        "retry": 8
+      },
+      "pi_o": {
+        "temperature": 1.0,
+        "top_p": 1.0,
+        "top_k": 10,
+        "retry": 8
+      }
+    },
+    "fitness": {
+      "cl": 8.115384615384615,
+      "correctness": 0.39282848952413374,
+      "energy": 16.605364080178624
+    }
+  },
+  {
+    "policy": {
+      "pi_a": {
+        "temperature": 1.0,
+        "top_p": 1.0,
+        "top_k": 10
+      },
+      "pi_r": {
+        "temperature": 0.0,
+        "top_p": 0.5166275523364706,
+        "top_k": 67
+      },
+      "pi_v": {
+        "retry": 8
+      },
+      "pi_o": {
+        "temperature": 0.8102021246001203,
+        "top_p": 0.5,
+        "top_k": 83,
+        "retry": 1
+      }
+    },
+    "fitness": {
+      "cl": 9.595238095238095,
+      "correctness": 0.5770302193657495,
+      "energy": 17.420840269149295
+    }
+  },
+  {
+    "policy": {
+      "pi_a": {
+        "temperature": 1.0,
+        "top_p": 0.9269951064331343,
+        "top_k": 10
+      },
+      "pi_r": {
+        "temperature": 0.7699476757326074,
+        "top_p": 0.5010234049201011,
+        "top_k": 69
+      },
+      "pi_v": {
+        "retry": 8
+      },
+      "pi_o": {
+        "temperature": 1.0,
+        "top_p": 0.5,
+        "top_k": 40,
+        "retry": 1
+      }
+    },
+    "fitness": {
+      "cl": 9.377777777777778,
+      "correctness": 0.6227916435850945,
+      "energy": 18.912937910302272
+    }
+  },
+  {
+    "policy": {
+      "pi_a": {
+        "temperature": 0.0,
+        "top_p": 0.8481775992556304,
+        "top_k": 84
+      },
+      "pi_r": {
+        "temperature": 0.8399507453872912,
+        "top_p": 0.824757319706233,
+        "top_k": 10
+      },
+      "pi_v": {
+        "retry": 8
+      },
+      "pi_o": {
+        "temperature": 1.0,
+        "top_p": 1.0,
+        "top_k": 10,
+        "retry": 8
+      }
+    },
+    "fitness": {
+      "cl": 8.305555555555555,
+      "correctness": 0.48422543132945883,
+      "energy": 18.156915698485747
+    }
+  },
+  {
+    "policy": {
+      "pi_a": {
+        "temperature": 0.0,
+        "top_p": 0.5,
+        "top_k": 100
+      },
+      "pi_r": {
+        "temperature": 1.0,
+        "top_p": 0.899046022301438,
+        "top_k": 77
+      },
+      "pi_v": {
+        "retry": 8
+      },
+      "pi_o": {
+        "temperature": 1.0,
+        "top_p": 0.7157201410937072,
+        "top_k": 56,
+        "retry": 8
+      }
+    },
+    "fitness": {
+      "cl": 9.35483870967742,
+      "correctness": 0.39779992893708943,
+      "energy": 16.856055979894844
+    }
+  },
+  {
+    "policy": {
+      "pi_a": {
+        "temperature": 0.0,
+        "top_p": 0.5,
+        "top_k": 10
+      },
+      "pi_r": {
+        "temperature": 0.565211725314298,
+        "top_p": 0.7392026588270016,
+        "top_k": 54
+      },
+      "pi_v": {
+        "retry": 5
+      },
+      "pi_o": {
+        "temperature": 1.0,
+        "top_p": 0.8794551947391949,
+        "top_k": 64,
+        "retry": 8
+      }
+    },
+    "fitness": {
+      "cl": 9.19047619047619,
+      "correctness": 0.539561489148738,
+      "energy": 17.10878910800178
+    }
+  },
+  {
+    "policy": {
+      "pi_a": {
+        "temperature": 0.0,
+        "top_p": 0.5,
+        "top_k": 100
+      },
+      "pi_r": {
+        "temperature": 1.0,
+        "top_p": 0.9508980418875966,
+        "top_k": 26
+      },
+      "pi_v": {
+        "retry": 8
+      },
+      "pi_o": {
+        "temperature": 1.0,
+        "top_p": 1.0,
+        "top_k": 15,
+        "retry": 8
+      }
+    },
+    "fitness": {
+      "cl": 7.71875,
+      "correctness": 0.4093581413707237,
+      "energy": 17.7443526101795
+    }
+  },
+  {
+    "policy": {
+      "pi_a": {
+        "temperature": 1.0,
+        "top_p": 1.0,
+        "top_k": 10
+      },
+      "pi_r": {
+        "temperature": 0.09034685424330285,
+        "top_p": 1.0,
+        "top_k": 77
+      },
+      "pi_v": {
+        "retry": 5
+      },
+      "pi_o": {
+        "temperature": 0.0,
+        "top_p": 0.5,
+        "top_k": 100,
+        "retry": 1
+      }
+    },
+    "fitness": {
+      "cl": 9.046511627906977,
+      "correctness": 0.5712368062655512,
+      "energy": 17.79868419335734
+    }
+  },
+  {
+    "policy": {
+      "pi_a": {
+        "temperature": 1.0,
+        "top_p": 1.0,
+        "top_k": 100
+      },
+      "pi_r": {
+        "temperature": 0.10496371607176871,
+        "top_p": 0.9773477662982699,
+        "top_k": 78
+      },
+      "pi_v": {
+        "retry": 1
+      },
+      "pi_o": {
+        "temperature": 0.0,
+        "top_p": 1.0,
+        "top_k": 72,
+        "retry": 1
+      }
+    },
+    "fitness": {
+      "cl": 9.5,
+      "correctness": 0.6009528213551129,
+      "energy": 17.92310367849362
+    }
+  },
+  {
+    "policy": {
+      "pi_a": {
+        "temperature": 1.0,
+        "top_p": 1.0,
+        "top_k": 10
+      },
+      "pi_r": {
+        "temperature": 0.18501293557900073,
+        "top_p": 0.5124687662147764,
+        "top_k": 23
+      },
+      "pi_v": {
+        "retry": 8
+      },
+      "pi_o": {
+        "temperature": 1.0,
+        "top_p": 1.0,
+        "top_k": 100,
+        "retry": 1
+      }
+    },
+    "fitness": {
+      "cl": 8.744186046511627,
+      "correctness": 0.586098810748791,
+      "energy": 19.464163005122565
+    }
+  },
+  {
+    "policy": {
+      "pi_a": {
+        "temperature": 1.0,
+        "top_p": 0.9120598264481411,
+        "top_k": 21
+      },
+      "pi_r": {
+        "temperature": 0.30708060413220084,
+        "top_p": 0.7449288480636284,
+        "top_k": 45
+      },
+      "pi_v": {
+        "retry": 8
+      },
+      "pi_o": {
+        "temperature": 1.0,
+        "top_p": 0.5,
+        "top_k": 100,
+        "retry": 1
+      }
+    },
+    "fitness": {
+      "cl": 8.714285714285714,
+      "correctness": 0.5683370628397529,
+      "energy": 18.587536676302175
+    }
+  },
+  {
+    "policy": {
+      "pi_a": {
+        "temperature": 0.0,
+        "top_p": 0.5,
+        "top_k": 100
+      },
+      "pi_r": {
+        "temperature": 1.0,
+        "top_p": 1.0,
+        "top_k": 100
+      },
+      "pi_v": {
+        "retry": 8
+      },
+      "pi_o": {
+        "temperature": 1.0,
+        "top_p": 0.616915744892671,
+        "top_k": 10,
+        "retry": 8
+      }
+    },
+    "fitness": {
+      "cl": 6.7368421052631575,
+      "correctness": 0.2814805431940732,
+      "energy": 27.849311806561253
+    }
+  },
+  {
+    "policy": {
+      "pi_a": {
+        "temperature": 0.0,
+        "top_p": 0.5,
+        "top_k": 100
+      },
+      "pi_r": {
+        "temperature": 0.6722435853824119,
+        "top_p": 0.9005586335645143,
+        "top_k": 80
+      },
+      "pi_v": {
+        "retry": 8
+      },
+      "pi_o": {
+        "temperature": 1.0,
+        "top_p": 1.0,
+        "top_k": 31,
+        "retry": 8
+      }
+    },
+    "fitness": {
+      "cl": 8.666666666666666,
+      "correctness": 0.472226449848737,
+      "energy": 18.035483791097562
+    }
+  },
+  {
+    "policy": {
+      "pi_a": {
+        "temperature": 0.0,
+        "top_p": 0.5,
+        "top_k": 100
+      },
+      "pi_r": {
+        "temperature": 0.9998159346687189,
+        "top_p": 0.9690519917986159,
+        "top_k": 100
+      },
+      "pi_v": {
+        "retry": 8
+      },
+      "pi_o": {
+        "temperature": 1.0,
+        "top_p": 1.0,
+        "top_k": 10,
+        "retry": 8
+      }
+    },
+    "fitness": {
+      "cl": 9.133333333333333,
+      "correctness": 0.39878145173370283,
+      "energy": 17.00226357234191
+    }
+  },
+  {
+    "policy": {
+      "pi_a": {
+        "temperature": 0.0,
+        "top_p": 1.0,
+        "top_k": 100
+      },
+      "pi_r": {
+        "temperature": 1.0,
+        "top_p": 0.7461829897790626,
+        "top_k": 33
+      },
+      "pi_v": {
+        "retry": 8
+      },
+      "pi_o": {
+        "temperature": 1.0,
+        "top_p": 1.0,
+        "top_k": 10,
+        "retry": 8
+      }
+    },
+    "fitness": {
+      "cl": 8.891891891891891,
+      "correctness": 0.49536848423948543,
+      "energy": 17.972552402799682
+    }
+  },
+  {
+    "policy": {
+      "pi_a": {
+        "temperature": 1.0,
+        "top_p": 0.5000001969277565,
+        "top_k": 34
+      },
+      "pi_r": {
+        "temperature": 0.0,
+        "top_p": 0.8675757297707892,
+        "top_k": 58
+      },
+      "pi_v": {
+        "retry": 8
+      },
+      "pi_o": {
+        "temperature": 0.0,
+        "top_p": 0.5,
+        "top_k": 10,
+        "retry": 1
+      }
+    },
+    "fitness": {
+      "cl": 9.355555555555556,
+      "correctness": 0.6077111426906401,
+      "energy": 18.043967247921657
+    }
+  },
+  {
+    "policy": {
+      "pi_a": {
+        "temperature": 0.0,
+        "top_p": 1.0,
+        "top_k": 100
+      },
+      "pi_r": {
+        "temperature": 0.7923349267243331,
+        "top_p": 0.6579816741589317,
+        "top_k": 26
+      },
+      "pi_v": {
+        "retry": 8
+      },
+      "pi_o": {
+        "temperature": 1.0,
+        "top_p": 1.0,
+        "top_k": 100,
+        "retry": 8
+      }
+    },
+    "fitness": {
+      "cl": 9.075,
+      "correctness": 0.5335658878982042,
+      "energy": 17.410879493451564
+    }
+  },
+  {
+    "policy": {
+      "pi_a": {
+        "temperature": 0.0,
+        "top_p": 0.5,
+        "top_k": 32
+      },
+      "pi_r": {
+        "temperature": 1.0,
+        "top_p": 0.9183582461067936,
+        "top_k": 50
+      },
+      "pi_v": {
+        "retry": 8
+      },
+      "pi_o": {
+        "temperature": 0.0,
+        "top_p": 1.0,
+        "top_k": 10,
+        "retry": 8
+      }
+    },
+    "fitness": {
+      "cl": 8.617647058823529,
+      "correctness": 0.4241535494934982,
+      "energy": 17.723616891906172
+    }
+  },
+  {
+    "policy": {
+      "pi_a": {
+        "temperature": 1.0,
+        "top_p": 0.5,
+        "top_k": 100
+      },
+      "pi_r": {
+        "temperature": 0.0,
+        "top_p": 1.0,
+        "top_k": 10
+      },
+      "pi_v": {
+        "retry": 8
+      },
+      "pi_o": {
+        "temperature": 1.0,
+        "top_p": 0.5,
+        "top_k": 10,
+        "retry": 8
+      }
+    },
+    "fitness": {
+      "cl": 9.088888888888889,
+      "correctness": 0.6090686998621507,
+      "energy": 18.52673939297904
+    }
+  },
+  {
+    "policy": {
+      "pi_a": {
+        "temperature": 0.0,
+        "top_p": 0.5,
+        "top_k": 80
+      },
+      "pi_r": {
+        "temperature": 1.0,
+        "top_p": 0.9034778974981544,
+        "top_k": 64
+      },
+      "pi_v": {
+        "retry": 8
+      },
+      "pi_o": {
+        "temperature": 1.0,
+        "top_p": 1.0,
+        "top_k": 10,
+        "retry": 8
+      }
+    },
+    "fitness": {
+      "cl": 8.216216216216216,
+      "correctness": 0.5212633226647752,
+      "energy": 19.52064973471404
+    }
+  },
+  {
+    "policy": {
+      "pi_a": {
+        "temperature": 0.0,
+        "top_p": 0.5,
+        "top_k": 52
+      },
+      "pi_r": {
+        "temperature": 0.5145900015007739,
+        "top_p": 0.9381076436933902,
+        "top_k": 84
+      },
+      "pi_v": {
+        "retry": 8
+      },
+      "pi_o": {
+        "temperature": 1.0,
+        "top_p": 1.0,
+        "top_k": 10,
+        "retry": 8
+      }
+    },
+    "fitness": {
+      "cl": 9.44186046511628,
+      "correctness": 0.6384091529321831,
+      "energy": 18.109408528173265
+    }
+  },
+  {
+    "policy": {
+      "pi_a": {
+        "temperature": 0.0,
+        "top_p": 0.5903793219867658,
+        "top_k": 100
+      },
+      "pi_r": {
+        "temperature": 1.0,
+        "top_p": 0.7551333091021586,
+        "top_k": 87
+      },
+      "pi_v": {
+        "retry": 8
+      },
+      "pi_o": {
+        "temperature": 1.0,
+        "top_p": 0.8868428805144724,
+        "top_k": 40,
+        "retry": 8
+      }
+    },
+    "fitness": {
+      "cl": 9.512820512820513,
+      "correctness": 0.5623164224826674,
+      "energy": 16.779147564935638
+    }
+  },
+  {
+    "policy": {
+      "pi_a": {
+        "temperature": 0.0,
+        "top_p": 1.0,
+        "top_k": 40
+      },
+      "pi_r": {
+        "temperature": 0.5709497751320082,
+        "top_p": 0.5832104159475329,
+        "top_k": 100
+      },
+      "pi_v": {
+        "retry": 8
+      },
+      "pi_o": {
+        "temperature": 0.0,
+        "top_p": 0.5,
+        "top_k": 100,
+        "retry": 5
+      }
+    },
+    "fitness": {
+      "cl": 9.447368421052632,
+      "correctness": 0.5043247410205652,
+      "energy": 17.09427991703577
+    }
+  }
+]

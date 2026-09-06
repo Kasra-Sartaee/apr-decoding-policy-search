@@ -1,0 +1,1860 @@
+{
+  "config": {
+    "n_problems": 60,
+    "replicates": 3,
+    "model": "qwen2.5-coder:1.5b",
+    "seed": 42,
+    "variants": {
+      "A": "/tmp/optvariants/A_strict.md",
+      "D": "/tmp/optvariants/D_controlflow.md"
+    },
+    "out": "analysis/optimiser_contract_py_validation.json"
+  },
+  "records": [
+    {
+      "rep": 0,
+      "problem": "121333",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 3
+    },
+    {
+      "rep": 0,
+      "problem": "121333",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 3
+    },
+    {
+      "rep": 0,
+      "problem": "131537",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 1
+    },
+    {
+      "rep": 0,
+      "problem": "131537",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 1
+    },
+    {
+      "rep": 0,
+      "problem": "167084",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 8
+    },
+    {
+      "rep": 0,
+      "problem": "167084",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 8
+    },
+    {
+      "rep": 0,
+      "problem": "172844",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 5
+    },
+    {
+      "rep": 0,
+      "problem": "172844",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 5
+    },
+    {
+      "rep": 0,
+      "problem": "183949",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 10
+    },
+    {
+      "rep": 0,
+      "problem": "183949",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 10
+    },
+    {
+      "rep": 0,
+      "problem": "186400",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 3
+    },
+    {
+      "rep": 0,
+      "problem": "186400",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 3
+    },
+    {
+      "rep": 0,
+      "problem": "196782",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 3
+    },
+    {
+      "rep": 0,
+      "problem": "196782",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 3
+    },
+    {
+      "rep": 0,
+      "problem": "221255",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 3
+    },
+    {
+      "rep": 0,
+      "problem": "221255",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 3
+    },
+    {
+      "rep": 0,
+      "problem": "230015",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 2
+    },
+    {
+      "rep": 0,
+      "problem": "230015",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 2
+    },
+    {
+      "rep": 0,
+      "problem": "230428",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 3
+    },
+    {
+      "rep": 0,
+      "problem": "230428",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 3
+    },
+    {
+      "rep": 0,
+      "problem": "240376",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 1
+    },
+    {
+      "rep": 0,
+      "problem": "240376",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 1
+    },
+    {
+      "rep": 0,
+      "problem": "240982",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 11
+    },
+    {
+      "rep": 0,
+      "problem": "240982",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 11
+    },
+    {
+      "rep": 0,
+      "problem": "243024",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 6
+    },
+    {
+      "rep": 0,
+      "problem": "243024",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 6
+    },
+    {
+      "rep": 0,
+      "problem": "245898",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 4
+    },
+    {
+      "rep": 0,
+      "problem": "245898",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 4
+    },
+    {
+      "rep": 0,
+      "problem": "248966",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 1
+    },
+    {
+      "rep": 0,
+      "problem": "248966",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 1
+    },
+    {
+      "rep": 0,
+      "problem": "249167",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 2
+    },
+    {
+      "rep": 0,
+      "problem": "249167",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 2
+    },
+    {
+      "rep": 0,
+      "problem": "251137",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 13
+    },
+    {
+      "rep": 0,
+      "problem": "251137",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 13
+    },
+    {
+      "rep": 0,
+      "problem": "255059",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 4
+    },
+    {
+      "rep": 0,
+      "problem": "255059",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 4
+    },
+    {
+      "rep": 0,
+      "problem": "257247",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 4
+    },
+    {
+      "rep": 0,
+      "problem": "257247",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 4
+    },
+    {
+      "rep": 0,
+      "problem": "264088",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 4
+    },
+    {
+      "rep": 0,
+      "problem": "264088",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 4
+    },
+    {
+      "rep": 0,
+      "problem": "268088",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 12
+    },
+    {
+      "rep": 0,
+      "problem": "268088",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 12
+    },
+    {
+      "rep": 0,
+      "problem": "280053",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 2
+    },
+    {
+      "rep": 0,
+      "problem": "280053",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 2
+    },
+    {
+      "rep": 0,
+      "problem": "282901",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 1
+    },
+    {
+      "rep": 0,
+      "problem": "282901",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 1
+    },
+    {
+      "rep": 0,
+      "problem": "291557",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 5
+    },
+    {
+      "rep": 0,
+      "problem": "291557",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 5
+    },
+    {
+      "rep": 0,
+      "problem": "300516",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 5
+    },
+    {
+      "rep": 0,
+      "problem": "300516",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 5
+    },
+    {
+      "rep": 0,
+      "problem": "302556",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 5
+    },
+    {
+      "rep": 0,
+      "problem": "302556",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 5
+    },
+    {
+      "rep": 0,
+      "problem": "303469",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 6
+    },
+    {
+      "rep": 0,
+      "problem": "303469",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 6
+    },
+    {
+      "rep": 0,
+      "problem": "305399",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 1
+    },
+    {
+      "rep": 0,
+      "problem": "305399",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 1
+    },
+    {
+      "rep": 0,
+      "problem": "311457",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 1
+    },
+    {
+      "rep": 0,
+      "problem": "311457",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 1
+    },
+    {
+      "rep": 0,
+      "problem": "313609",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 7
+    },
+    {
+      "rep": 0,
+      "problem": "313609",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 7
+    },
+    {
+      "rep": 0,
+      "problem": "317459",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 3
+    },
+    {
+      "rep": 0,
+      "problem": "317459",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 3
+    },
+    {
+      "rep": 0,
+      "problem": "320108",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 3
+    },
+    {
+      "rep": 0,
+      "problem": "320108",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 3
+    },
+    {
+      "rep": 0,
+      "problem": "328652",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 4
+    },
+    {
+      "rep": 0,
+      "problem": "328652",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 4
+    },
+    {
+      "rep": 0,
+      "problem": "329672",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 6
+    },
+    {
+      "rep": 0,
+      "problem": "329672",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 6
+    },
+    {
+      "rep": 0,
+      "problem": "331336",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 2
+    },
+    {
+      "rep": 0,
+      "problem": "331336",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 2
+    },
+    {
+      "rep": 0,
+      "problem": "336321",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 11
+    },
+    {
+      "rep": 0,
+      "problem": "336321",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 11
+    },
+    {
+      "rep": 0,
+      "problem": "340195",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 2
+    },
+    {
+      "rep": 0,
+      "problem": "340195",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 2
+    },
+    {
+      "rep": 0,
+      "problem": "346111",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 5
+    },
+    {
+      "rep": 0,
+      "problem": "346111",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 5
+    },
+    {
+      "rep": 0,
+      "problem": "346322",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 6
+    },
+    {
+      "rep": 0,
+      "problem": "346322",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 6
+    },
+    {
+      "rep": 0,
+      "problem": "349434",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 3
+    },
+    {
+      "rep": 0,
+      "problem": "349434",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 3
+    },
+    {
+      "rep": 0,
+      "problem": "371009",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 6
+    },
+    {
+      "rep": 0,
+      "problem": "371009",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 6
+    },
+    {
+      "rep": 0,
+      "problem": "377029",
+      "variant": "A",
+      "outcome": "accepted",
+      "cl_repaired": 2,
+      "cl_optimised": 2,
+      "reason": null,
+      "cl_delta": 0
+    },
+    {
+      "rep": 0,
+      "problem": "377029",
+      "variant": "D",
+      "outcome": "accepted",
+      "cl_repaired": 2,
+      "cl_optimised": 2,
+      "reason": null,
+      "cl_delta": 0
+    },
+    {
+      "rep": 0,
+      "problem": "379237",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 2
+    },
+    {
+      "rep": 0,
+      "problem": "379237",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 2
+    },
+    {
+      "rep": 0,
+      "problem": "392876",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 4
+    },
+    {
+      "rep": 0,
+      "problem": "392876",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 4
+    },
+    {
+      "rep": 1,
+      "problem": "131537",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 1
+    },
+    {
+      "rep": 1,
+      "problem": "131537",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 1
+    },
+    {
+      "rep": 1,
+      "problem": "167084",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 8
+    },
+    {
+      "rep": 1,
+      "problem": "167084",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 8
+    },
+    {
+      "rep": 1,
+      "problem": "183949",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 10
+    },
+    {
+      "rep": 1,
+      "problem": "183949",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 10
+    },
+    {
+      "rep": 1,
+      "problem": "186400",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 3
+    },
+    {
+      "rep": 1,
+      "problem": "186400",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 3
+    },
+    {
+      "rep": 1,
+      "problem": "196782",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 3
+    },
+    {
+      "rep": 1,
+      "problem": "196782",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 3
+    },
+    {
+      "rep": 1,
+      "problem": "221255",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 3
+    },
+    {
+      "rep": 1,
+      "problem": "221255",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 3
+    },
+    {
+      "rep": 1,
+      "problem": "230015",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 3
+    },
+    {
+      "rep": 1,
+      "problem": "230015",
+      "variant": "D",
+      "outcome": "accepted",
+      "cl_repaired": 3,
+      "cl_optimised": 3,
+      "reason": null,
+      "cl_delta": 0
+    },
+    {
+      "rep": 1,
+      "problem": "230428",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 3
+    },
+    {
+      "rep": 1,
+      "problem": "230428",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 3
+    },
+    {
+      "rep": 1,
+      "problem": "240376",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 1
+    },
+    {
+      "rep": 1,
+      "problem": "240376",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 1
+    },
+    {
+      "rep": 1,
+      "problem": "240982",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 11
+    },
+    {
+      "rep": 1,
+      "problem": "240982",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 11
+    },
+    {
+      "rep": 1,
+      "problem": "243024",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 6
+    },
+    {
+      "rep": 1,
+      "problem": "243024",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 6
+    },
+    {
+      "rep": 1,
+      "problem": "245898",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 4
+    },
+    {
+      "rep": 1,
+      "problem": "245898",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 4
+    },
+    {
+      "rep": 1,
+      "problem": "247045",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 2
+    },
+    {
+      "rep": 1,
+      "problem": "247045",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 2
+    },
+    {
+      "rep": 1,
+      "problem": "248966",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 1
+    },
+    {
+      "rep": 1,
+      "problem": "248966",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 1
+    },
+    {
+      "rep": 1,
+      "problem": "249167",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 2
+    },
+    {
+      "rep": 1,
+      "problem": "249167",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 2
+    },
+    {
+      "rep": 1,
+      "problem": "251137",
+      "variant": "D",
+      "outcome": "accepted",
+      "cl_repaired": 13,
+      "cl_optimised": 13,
+      "reason": null,
+      "cl_delta": 0
+    },
+    {
+      "rep": 1,
+      "problem": "251137",
+      "variant": "A",
+      "outcome": "accepted",
+      "cl_repaired": 13,
+      "cl_optimised": 13,
+      "reason": null,
+      "cl_delta": 0
+    },
+    {
+      "rep": 1,
+      "problem": "255059",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 4
+    },
+    {
+      "rep": 1,
+      "problem": "255059",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 4
+    },
+    {
+      "rep": 1,
+      "problem": "257247",
+      "variant": "D",
+      "outcome": "rejected",
+      "cl_repaired": 4,
+      "cl_optimised": null,
+      "reason": "optimised code did not compile"
+    },
+    {
+      "rep": 1,
+      "problem": "257247",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 4
+    },
+    {
+      "rep": 1,
+      "problem": "268088",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 12
+    },
+    {
+      "rep": 1,
+      "problem": "268088",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 12
+    },
+    {
+      "rep": 1,
+      "problem": "280053",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 2
+    },
+    {
+      "rep": 1,
+      "problem": "280053",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 2
+    },
+    {
+      "rep": 1,
+      "problem": "282901",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 1
+    },
+    {
+      "rep": 1,
+      "problem": "282901",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 1
+    },
+    {
+      "rep": 1,
+      "problem": "291557",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 5
+    },
+    {
+      "rep": 1,
+      "problem": "291557",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 5
+    },
+    {
+      "rep": 1,
+      "problem": "297346",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 4
+    },
+    {
+      "rep": 1,
+      "problem": "297346",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 4
+    },
+    {
+      "rep": 1,
+      "problem": "300516",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 5
+    },
+    {
+      "rep": 1,
+      "problem": "300516",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 5
+    },
+    {
+      "rep": 1,
+      "problem": "303469",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 6
+    },
+    {
+      "rep": 1,
+      "problem": "303469",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 6
+    },
+    {
+      "rep": 1,
+      "problem": "305399",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 1
+    },
+    {
+      "rep": 1,
+      "problem": "305399",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 1
+    },
+    {
+      "rep": 1,
+      "problem": "311457",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 1
+    },
+    {
+      "rep": 1,
+      "problem": "311457",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 1
+    },
+    {
+      "rep": 1,
+      "problem": "313609",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 7
+    },
+    {
+      "rep": 1,
+      "problem": "313609",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 7
+    },
+    {
+      "rep": 1,
+      "problem": "320108",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 3
+    },
+    {
+      "rep": 1,
+      "problem": "320108",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 3
+    },
+    {
+      "rep": 1,
+      "problem": "328652",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 4
+    },
+    {
+      "rep": 1,
+      "problem": "328652",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 4
+    },
+    {
+      "rep": 1,
+      "problem": "329672",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 6
+    },
+    {
+      "rep": 1,
+      "problem": "329672",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 6
+    },
+    {
+      "rep": 1,
+      "problem": "331336",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 2
+    },
+    {
+      "rep": 1,
+      "problem": "331336",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 2
+    },
+    {
+      "rep": 1,
+      "problem": "340195",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 2
+    },
+    {
+      "rep": 1,
+      "problem": "340195",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 2
+    },
+    {
+      "rep": 1,
+      "problem": "346111",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 5
+    },
+    {
+      "rep": 1,
+      "problem": "346111",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 5
+    },
+    {
+      "rep": 1,
+      "problem": "346322",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 6
+    },
+    {
+      "rep": 1,
+      "problem": "346322",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 6
+    },
+    {
+      "rep": 1,
+      "problem": "349434",
+      "variant": "D",
+      "outcome": "accepted",
+      "cl_repaired": 3,
+      "cl_optimised": 3,
+      "reason": null,
+      "cl_delta": 0
+    },
+    {
+      "rep": 1,
+      "problem": "349434",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 3
+    },
+    {
+      "rep": 1,
+      "problem": "371009",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 6
+    },
+    {
+      "rep": 1,
+      "problem": "371009",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 6
+    },
+    {
+      "rep": 1,
+      "problem": "377029",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 2
+    },
+    {
+      "rep": 1,
+      "problem": "377029",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 2
+    },
+    {
+      "rep": 1,
+      "problem": "392876",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 4
+    },
+    {
+      "rep": 1,
+      "problem": "392876",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 4
+    },
+    {
+      "rep": 1,
+      "problem": "393439",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 10
+    },
+    {
+      "rep": 1,
+      "problem": "393439",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 10
+    },
+    {
+      "rep": 2,
+      "problem": "110085",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 3
+    },
+    {
+      "rep": 2,
+      "problem": "110085",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 3
+    },
+    {
+      "rep": 2,
+      "problem": "121333",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 3
+    },
+    {
+      "rep": 2,
+      "problem": "121333",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 3
+    },
+    {
+      "rep": 2,
+      "problem": "131537",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 1
+    },
+    {
+      "rep": 2,
+      "problem": "131537",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 1
+    },
+    {
+      "rep": 2,
+      "problem": "167084",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 8
+    },
+    {
+      "rep": 2,
+      "problem": "167084",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 8
+    },
+    {
+      "rep": 2,
+      "problem": "172844",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 5
+    },
+    {
+      "rep": 2,
+      "problem": "172844",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 5
+    },
+    {
+      "rep": 2,
+      "problem": "183949",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 10
+    },
+    {
+      "rep": 2,
+      "problem": "183949",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 10
+    },
+    {
+      "rep": 2,
+      "problem": "186400",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 3
+    },
+    {
+      "rep": 2,
+      "problem": "186400",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 3
+    },
+    {
+      "rep": 2,
+      "problem": "196782",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 3
+    },
+    {
+      "rep": 2,
+      "problem": "196782",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 3
+    },
+    {
+      "rep": 2,
+      "problem": "221255",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 3
+    },
+    {
+      "rep": 2,
+      "problem": "221255",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 3
+    },
+    {
+      "rep": 2,
+      "problem": "230015",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 3
+    },
+    {
+      "rep": 2,
+      "problem": "230015",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 3
+    },
+    {
+      "rep": 2,
+      "problem": "230428",
+      "variant": "D",
+      "outcome": "accepted",
+      "cl_repaired": 3,
+      "cl_optimised": 3,
+      "reason": null,
+      "cl_delta": 0
+    },
+    {
+      "rep": 2,
+      "problem": "230428",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 3
+    },
+    {
+      "rep": 2,
+      "problem": "240376",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 1
+    },
+    {
+      "rep": 2,
+      "problem": "240376",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 1
+    },
+    {
+      "rep": 2,
+      "problem": "240982",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 11
+    },
+    {
+      "rep": 2,
+      "problem": "240982",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 11
+    },
+    {
+      "rep": 2,
+      "problem": "243024",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 6
+    },
+    {
+      "rep": 2,
+      "problem": "243024",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 6
+    },
+    {
+      "rep": 2,
+      "problem": "245898",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 4
+    },
+    {
+      "rep": 2,
+      "problem": "245898",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 4
+    },
+    {
+      "rep": 2,
+      "problem": "247045",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 2
+    },
+    {
+      "rep": 2,
+      "problem": "247045",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 2
+    },
+    {
+      "rep": 2,
+      "problem": "248966",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 1
+    },
+    {
+      "rep": 2,
+      "problem": "248966",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 1
+    },
+    {
+      "rep": 2,
+      "problem": "249167",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 2
+    },
+    {
+      "rep": 2,
+      "problem": "249167",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 2
+    },
+    {
+      "rep": 2,
+      "problem": "251137",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 13
+    },
+    {
+      "rep": 2,
+      "problem": "251137",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 13
+    },
+    {
+      "rep": 2,
+      "problem": "255059",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 4
+    },
+    {
+      "rep": 2,
+      "problem": "255059",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 4
+    },
+    {
+      "rep": 2,
+      "problem": "257247",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 4
+    },
+    {
+      "rep": 2,
+      "problem": "257247",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 4
+    },
+    {
+      "rep": 2,
+      "problem": "264088",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 4
+    },
+    {
+      "rep": 2,
+      "problem": "264088",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 4
+    },
+    {
+      "rep": 2,
+      "problem": "280053",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 2
+    },
+    {
+      "rep": 2,
+      "problem": "280053",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 2
+    },
+    {
+      "rep": 2,
+      "problem": "282901",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 1
+    },
+    {
+      "rep": 2,
+      "problem": "282901",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 1
+    },
+    {
+      "rep": 2,
+      "problem": "291557",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 5
+    },
+    {
+      "rep": 2,
+      "problem": "291557",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 5
+    },
+    {
+      "rep": 2,
+      "problem": "297346",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 4
+    },
+    {
+      "rep": 2,
+      "problem": "297346",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 4
+    },
+    {
+      "rep": 2,
+      "problem": "300516",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 5
+    },
+    {
+      "rep": 2,
+      "problem": "300516",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 5
+    },
+    {
+      "rep": 2,
+      "problem": "302556",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 5
+    },
+    {
+      "rep": 2,
+      "problem": "302556",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 5
+    },
+    {
+      "rep": 2,
+      "problem": "303469",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 6
+    },
+    {
+      "rep": 2,
+      "problem": "303469",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 6
+    },
+    {
+      "rep": 2,
+      "problem": "305399",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 1
+    },
+    {
+      "rep": 2,
+      "problem": "305399",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 1
+    },
+    {
+      "rep": 2,
+      "problem": "311457",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 1
+    },
+    {
+      "rep": 2,
+      "problem": "311457",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 1
+    },
+    {
+      "rep": 2,
+      "problem": "313609",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 7
+    },
+    {
+      "rep": 2,
+      "problem": "313609",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 7
+    },
+    {
+      "rep": 2,
+      "problem": "317459",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 6
+    },
+    {
+      "rep": 2,
+      "problem": "317459",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 6
+    },
+    {
+      "rep": 2,
+      "problem": "320108",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 3
+    },
+    {
+      "rep": 2,
+      "problem": "320108",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 3
+    },
+    {
+      "rep": 2,
+      "problem": "328652",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 4
+    },
+    {
+      "rep": 2,
+      "problem": "328652",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 4
+    },
+    {
+      "rep": 2,
+      "problem": "329672",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 6
+    },
+    {
+      "rep": 2,
+      "problem": "329672",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 6
+    },
+    {
+      "rep": 2,
+      "problem": "330422",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 8
+    },
+    {
+      "rep": 2,
+      "problem": "330422",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 8
+    },
+    {
+      "rep": 2,
+      "problem": "336321",
+      "variant": "D",
+      "outcome": "rejected",
+      "cl_repaired": 11,
+      "cl_optimised": null,
+      "reason": "optimised code did not compile"
+    },
+    {
+      "rep": 2,
+      "problem": "336321",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 11
+    },
+    {
+      "rep": 2,
+      "problem": "340195",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 2
+    },
+    {
+      "rep": 2,
+      "problem": "340195",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 2
+    },
+    {
+      "rep": 2,
+      "problem": "346111",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 5
+    },
+    {
+      "rep": 2,
+      "problem": "346111",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 5
+    },
+    {
+      "rep": 2,
+      "problem": "346322",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 6
+    },
+    {
+      "rep": 2,
+      "problem": "346322",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 6
+    },
+    {
+      "rep": 2,
+      "problem": "349434",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 3
+    },
+    {
+      "rep": 2,
+      "problem": "349434",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 3
+    },
+    {
+      "rep": 2,
+      "problem": "371009",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 6
+    },
+    {
+      "rep": 2,
+      "problem": "371009",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 6
+    },
+    {
+      "rep": 2,
+      "problem": "377029",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 2
+    },
+    {
+      "rep": 2,
+      "problem": "377029",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 2
+    },
+    {
+      "rep": 2,
+      "problem": "392876",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 4
+    },
+    {
+      "rep": 2,
+      "problem": "392876",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 4
+    },
+    {
+      "rep": 2,
+      "problem": "393439",
+      "variant": "D",
+      "outcome": "declined",
+      "cl_repaired": 10
+    },
+    {
+      "rep": 2,
+      "problem": "393439",
+      "variant": "A",
+      "outcome": "declined",
+      "cl_repaired": 10
+    }
+  ]
+}

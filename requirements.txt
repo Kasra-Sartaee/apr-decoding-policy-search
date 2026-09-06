@@ -1,0 +1,46 @@
+# Runtime dependencies for the pipeline, the search drivers and the analysis
+# notebook.
+#
+# Versions are the ones the reported runs and the published analysis executed
+# under, recorded in analysis/data/three_arm_results.json (python 3.11.3,
+# numpy 2.4.6, scipy 1.17.1, matplotlib 3.11.0, pymoo 0.6.1.6). They are pinned
+# with >= rather than == so the environment can be rebuilt on a newer stack;
+# pin exactly if an exact reproduction is required.
+#
+# Tool configuration (ruff, mypy, vulture, deptry) lives in pyproject.toml.
+# Dev tools install via:       pip install -e ".[dev]"
+# Analysis-notebook deps via:  pip install -e ".[analysis]"
+# The surrogate arm has its own extra:  pip install -e ".[mobo]"
+
+# LLM client. Inference is local Ollama only; there is no remote-provider path.
+ollama>=0.6.2
+
+# Pipeline / metrics
+lizard>=1.23.0
+pydantic>=2.13.4
+pyyaml>=6.0.3
+
+# Search
+pymoo>=0.6.1.6
+numpy>=2.4.6
+pandas>=3.0.3
+
+# Analysis notebook (analysis/three_arm_analysis.ipynb uses these directly)
+matplotlib>=3.11.0
+seaborn>=0.13.2
+jupyter>=1.1.1
+scikit-learn>=1.9.0
+scipy>=1.17.1
+
+# Energy measurement — see docs/guides/running_on_linux.md. The pipeline
+# resolves a backend at startup (--energy-backend); every backend's import is
+# guarded, so a missing library disables that backend rather than breaking the
+# pipeline.
+#
+# Apple-Silicon-only:
+zeus-apple-silicon ; sys_platform == "darwin" and platform_machine == "arm64"
+# Cross-platform (TDP fallback on Windows; real RAPL on Linux + Intel):
+codecarbon>=3.2.8
+# Secondary inference-energy telemetry (GPU via NVML); the import is guarded, so
+# a missing driver or GPU disables only the GPU term. See inference_energy.py.
+nvidia-ml-py>=13.610.43

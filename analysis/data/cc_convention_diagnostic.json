@@ -1,0 +1,65 @@
+{
+  "python": {
+    "language": "Python3",
+    "benchmark": "runbugrun_py",
+    "n_sampled": 2000,
+    "n_unparseable_py3": 0,
+    "n_flat_scripts": 1685,
+    "frac_flat_scripts": 0.8425,
+    "sum_per_function": {
+      "n": 2000,
+      "min": 0,
+      "p25": 0,
+      "median": 0,
+      "p75": 0,
+      "p95": 6,
+      "max": 119,
+      "mean": 1.01,
+      "n_zero": 1685,
+      "frac_zero": 0.8425
+    },
+    "whole_program": {
+      "n": 2000,
+      "min": 1,
+      "p25": 2,
+      "median": 3,
+      "p75": 5,
+      "p95": 11,
+      "max": 90,
+      "mean": 4.48,
+      "n_zero": 0,
+      "frac_zero": 0.0
+    }
+  },
+  "c": {
+    "language": "C99/C++",
+    "benchmark": "codeflaws",
+    "n_sampled": 300,
+    "n_no_functions": 0,
+    "sum_per_function": {
+      "n": 300,
+      "min": 1,
+      "p25": 5,
+      "median": 8,
+      "p75": 13,
+      "p95": 28,
+      "max": 68,
+      "mean": 10.41,
+      "n_zero": 0,
+      "frac_zero": 0.0
+    },
+    "whole_program": {
+      "n": 300,
+      "min": 1,
+      "p25": 4,
+      "median": 8,
+      "p75": 12,
+      "p95": 27,
+      "max": 68,
+      "mean": 10.08,
+      "n_zero": 0,
+      "frac_zero": 0.0
+    },
+    "_note": "whole_program derived as sum_CCN - n_funcs + 1 (valid for C: no module-level code)"
+  }
+}

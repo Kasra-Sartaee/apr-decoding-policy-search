@@ -1,0 +1,2793 @@
+{
+  "summary": {
+    "n_problems": 200,
+    "wall_time_s": 136.7,
+    "avg_time_per_problem_s": 0.68,
+    "f1_cl": {
+      "min": 1,
+      "p25": 2,
+      "median": 4,
+      "p75": 6,
+      "max": 38
+    },
+    "f2_correctness": {
+      "mean": 0.4115,
+      "n_all_pass": 0,
+      "n_partial": 139,
+      "n_all_fail": 61
+    },
+    "f3_energy_mj": {
+      "n_measured": 139,
+      "median": 153.3175549203796
+    },
+    "zero_tests": 0
+  },
+  "per_problem": [
+    {
+      "problem_id": "23611",
+      "tests_total": 101,
+      "tests_passed": 0,
+      "correctness": 0.0,
+      "cl": 4,
+      "energy_mj": null,
+      "elapsed_s": 1.447,
+      "failed_tests": [
+        "input_1.txt: output mismatch",
+        "input_2.txt: output mismatch",
+        "input_3.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "70893",
+      "tests_total": 102,
+      "tests_passed": 0,
+      "correctness": 0.0,
+      "cl": 4,
+      "energy_mj": null,
+      "elapsed_s": 1.469,
+      "failed_tests": [
+        "input_1.txt: output mismatch",
+        "input_2.txt: output mismatch",
+        "input_3.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "75235",
+      "tests_total": 3,
+      "tests_passed": 0,
+      "correctness": 0.0,
+      "cl": 1,
+      "energy_mj": null,
+      "elapsed_s": 0.034,
+      "failed_tests": [
+        "input_1.txt: output mismatch",
+        "input_2.txt: output mismatch",
+        "input_3.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "73406",
+      "tests_total": 101,
+      "tests_passed": 0,
+      "correctness": 0.0,
+      "cl": 7,
+      "energy_mj": null,
+      "elapsed_s": 1.481,
+      "failed_tests": [
+        "input_1.txt: output mismatch",
+        "input_2.txt: output mismatch",
+        "input_3.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "79716",
+      "tests_total": 3,
+      "tests_passed": 0,
+      "correctness": 0.0,
+      "cl": 2,
+      "energy_mj": null,
+      "elapsed_s": 0.035,
+      "failed_tests": [
+        "input_1.txt: output mismatch",
+        "input_2.txt: output mismatch",
+        "input_3.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "13106",
+      "tests_total": 69,
+      "tests_passed": 41,
+      "correctness": 0.5942,
+      "cl": 7,
+      "energy_mj": 184.64067411359127,
+      "elapsed_s": 1.62,
+      "failed_tests": [
+        "input_1.txt: output mismatch",
+        "input_3.txt: output mismatch",
+        "input_10.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "10316",
+      "tests_total": 77,
+      "tests_passed": 1,
+      "correctness": 0.013,
+      "cl": 3,
+      "energy_mj": 157.6291909441352,
+      "elapsed_s": 1.652,
+      "failed_tests": [
+        "input_1.txt: rc=1 stderr=Traceback (most recent call last):\n  File \"benchmarks/runbugrun_py/data/problems/10316/buggy.py\", line 9, in <module>\n    print(math.",
+        "input_2.txt: rc=1 stderr=Traceback (most recent call last):\n  File \"benchmarks/runbugrun_py/data/problems/10316/buggy.py\", line 9, in <module>\n    print(math.",
+        "input_3.txt: rc=1 stderr=Traceback (most recent call last):\n  File \"benchmarks/runbugrun_py/data/problems/10316/buggy.py\", line 9, in <module>\n    print(math."
+      ]
+    },
+    {
+      "problem_id": "19895",
+      "tests_total": 78,
+      "tests_passed": 2,
+      "correctness": 0.0256,
+      "cl": 20,
+      "energy_mj": 166.16099223028868,
+      "elapsed_s": 1.695,
+      "failed_tests": [
+        "input_1.txt: rc=1 stderr=Traceback (most recent call last):\n  File \"benchmarks/runbugrun_py/data/problems/19895/buggy.py\", line 53, in <module>\n    print(toNu",
+        "input_2.txt: rc=1 stderr=Traceback (most recent call last):\n  File \"benchmarks/runbugrun_py/data/problems/19895/buggy.py\", line 53, in <module>\n    print(toNu",
+        "input_3.txt: rc=1 stderr=Traceback (most recent call last):\n  File \"benchmarks/runbugrun_py/data/problems/19895/buggy.py\", line 53, in <module>\n    print(toNu"
+      ]
+    },
+    {
+      "problem_id": "13531",
+      "tests_total": 101,
+      "tests_passed": 1,
+      "correctness": 0.0099,
+      "cl": 15,
+      "energy_mj": 187.5479845330119,
+      "elapsed_s": 1.734,
+      "failed_tests": [
+        "input_1.txt: output mismatch",
+        "input_2.txt: output mismatch",
+        "input_3.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "20156",
+      "tests_total": 101,
+      "tests_passed": 3,
+      "correctness": 0.0297,
+      "cl": 38,
+      "energy_mj": 189.51500533148646,
+      "elapsed_s": 1.773,
+      "failed_tests": [
+        "input_2.txt: rc=1 stderr=Traceback (most recent call last):\n  File \"benchmarks/runbugrun_py/data/problems/20156/buggy.py\", line 191, in <module>\n    path.appe",
+        "input_3.txt: rc=1 stderr=Traceback (most recent call last):\n  File \"benchmarks/runbugrun_py/data/problems/20156/buggy.py\", line 191, in <module>\n    path.appe",
+        "input_4.txt: rc=1 stderr=Traceback (most recent call last):\n  File \"benchmarks/runbugrun_py/data/problems/20156/buggy.py\", line 191, in <module>\n    path.appe"
+      ]
+    },
+    {
+      "problem_id": "99192",
+      "tests_total": 7,
+      "tests_passed": 0,
+      "correctness": 0.0,
+      "cl": 1,
+      "energy_mj": null,
+      "elapsed_s": 0.103,
+      "failed_tests": [
+        "input_1.txt: output mismatch",
+        "input_2.txt: output mismatch",
+        "input_3.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "83935",
+      "tests_total": 101,
+      "tests_passed": 0,
+      "correctness": 0.0,
+      "cl": 6,
+      "energy_mj": null,
+      "elapsed_s": 1.416,
+      "failed_tests": [
+        "input_1.txt: output mismatch",
+        "input_2.txt: output mismatch",
+        "input_3.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "81255",
+      "tests_total": 101,
+      "tests_passed": 0,
+      "correctness": 0.0,
+      "cl": 4,
+      "energy_mj": null,
+      "elapsed_s": 1.428,
+      "failed_tests": [
+        "input_1.txt: output mismatch",
+        "input_2.txt: output mismatch",
+        "input_3.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "85884",
+      "tests_total": 102,
+      "tests_passed": 0,
+      "correctness": 0.0,
+      "cl": 13,
+      "energy_mj": null,
+      "elapsed_s": 1.516,
+      "failed_tests": [
+        "input_1.txt: output mismatch",
+        "input_2.txt: output mismatch",
+        "input_3.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "99444",
+      "tests_total": 101,
+      "tests_passed": 0,
+      "correctness": 0.0,
+      "cl": 1,
+      "energy_mj": null,
+      "elapsed_s": 1.478,
+      "failed_tests": [
+        "input_1.txt: output mismatch",
+        "input_2.txt: output mismatch",
+        "input_3.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "103050",
+      "tests_total": 101,
+      "tests_passed": 0,
+      "correctness": 0.0,
+      "cl": 1,
+      "energy_mj": null,
+      "elapsed_s": 1.451,
+      "failed_tests": [
+        "input_1.txt: output mismatch",
+        "input_2.txt: output mismatch",
+        "input_3.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "103185",
+      "tests_total": 101,
+      "tests_passed": 0,
+      "correctness": 0.0,
+      "cl": 1,
+      "energy_mj": null,
+      "elapsed_s": 1.479,
+      "failed_tests": [
+        "input_1.txt: output mismatch",
+        "input_2.txt: output mismatch",
+        "input_3.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "90518",
+      "tests_total": 102,
+      "tests_passed": 15,
+      "correctness": 0.1471,
+      "cl": 1,
+      "energy_mj": 195.72885893285275,
+      "elapsed_s": 1.7,
+      "failed_tests": [
+        "input_1.txt: output mismatch",
+        "input_2.txt: output mismatch",
+        "input_3.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "91731",
+      "tests_total": 101,
+      "tests_passed": 43,
+      "correctness": 0.4257,
+      "cl": 20,
+      "energy_mj": 222.54355852817034,
+      "elapsed_s": 2.308,
+      "failed_tests": [
+        "input_5.txt: output mismatch",
+        "input_6.txt: output mismatch",
+        "input_8.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "103223",
+      "tests_total": 101,
+      "tests_passed": 0,
+      "correctness": 0.0,
+      "cl": 1,
+      "energy_mj": null,
+      "elapsed_s": 1.474,
+      "failed_tests": [
+        "input_1.txt: rc=1 stderr=Traceback (most recent call last):\n  File \"benchmarks/runbugrun_py/data/problems/103223/buggy.py\", line 3, in <module>\n    print(a*b+",
+        "input_2.txt: rc=1 stderr=Traceback (most recent call last):\n  File \"benchmarks/runbugrun_py/data/problems/103223/buggy.py\", line 3, in <module>\n    print(a*b+",
+        "input_3.txt: rc=1 stderr=Traceback (most recent call last):\n  File \"benchmarks/runbugrun_py/data/problems/103223/buggy.py\", line 3, in <module>\n    print(a*b+"
+      ]
+    },
+    {
+      "problem_id": "110085",
+      "tests_total": 102,
+      "tests_passed": 0,
+      "correctness": 0.0,
+      "cl": 3,
+      "energy_mj": null,
+      "elapsed_s": 1.443,
+      "failed_tests": [
+        "input_1.txt: rc=1 stderr=Traceback (most recent call last):\n  File \"benchmarks/runbugrun_py/data/problems/110085/buggy.py\", line 1, in <module>\n    a, b, c = ",
+        "input_2.txt: rc=1 stderr=Traceback (most recent call last):\n  File \"benchmarks/runbugrun_py/data/problems/110085/buggy.py\", line 1, in <module>\n    a, b, c = ",
+        "input_3.txt: rc=1 stderr=Traceback (most recent call last):\n  File \"benchmarks/runbugrun_py/data/problems/110085/buggy.py\", line 1, in <module>\n    a, b, c = "
+      ]
+    },
+    {
+      "problem_id": "121137",
+      "tests_total": 101,
+      "tests_passed": 0,
+      "correctness": 0.0,
+      "cl": 3,
+      "energy_mj": null,
+      "elapsed_s": 1.465,
+      "failed_tests": [
+        "input_1.txt: output mismatch",
+        "input_2.txt: output mismatch",
+        "input_3.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "121196",
+      "tests_total": 101,
+      "tests_passed": 0,
+      "correctness": 0.0,
+      "cl": 3,
+      "energy_mj": null,
+      "elapsed_s": 1.488,
+      "failed_tests": [
+        "input_1.txt: rc=1 stderr=Traceback (most recent call last):\n  File \"benchmarks/runbugrun_py/data/problems/121196/buggy.py\", line 4, in <module>\n    num = inpu",
+        "input_2.txt: rc=1 stderr=Traceback (most recent call last):\n  File \"benchmarks/runbugrun_py/data/problems/121196/buggy.py\", line 4, in <module>\n    num = inpu",
+        "input_3.txt: rc=1 stderr=Traceback (most recent call last):\n  File \"benchmarks/runbugrun_py/data/problems/121196/buggy.py\", line 4, in <module>\n    num = inpu"
+      ]
+    },
+    {
+      "problem_id": "121304",
+      "tests_total": 101,
+      "tests_passed": 0,
+      "correctness": 0.0,
+      "cl": 3,
+      "energy_mj": null,
+      "elapsed_s": 1.481,
+      "failed_tests": [
+        "input_1.txt: output mismatch",
+        "input_2.txt: output mismatch",
+        "input_3.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "109971",
+      "tests_total": 102,
+      "tests_passed": 91,
+      "correctness": 0.8922,
+      "cl": 3,
+      "energy_mj": 188.9410620340361,
+      "elapsed_s": 2.655,
+      "failed_tests": [
+        "input_5.txt: output mismatch",
+        "input_9.txt: output mismatch",
+        "input_15.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "121333",
+      "tests_total": 101,
+      "tests_passed": 1,
+      "correctness": 0.0099,
+      "cl": 3,
+      "energy_mj": 190.48031652346253,
+      "elapsed_s": 2.288,
+      "failed_tests": [
+        "input_1.txt: output mismatch",
+        "input_2.txt: output mismatch",
+        "input_3.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "121844",
+      "tests_total": 101,
+      "tests_passed": 82,
+      "correctness": 0.8119,
+      "cl": 3,
+      "energy_mj": 155.850053032315,
+      "elapsed_s": 2.501,
+      "failed_tests": [
+        "input_14.txt: output mismatch",
+        "input_21.txt: output mismatch",
+        "input_23.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "131341",
+      "tests_total": 102,
+      "tests_passed": 0,
+      "correctness": 0.0,
+      "cl": 1,
+      "energy_mj": null,
+      "elapsed_s": 1.113,
+      "failed_tests": [
+        "input_1.txt: rc=1 stderr=Traceback (most recent call last):\n  File \"benchmarks/runbugrun_py/data/problems/131341/buggy.py\", line 2, in <module>\n    r=int().in",
+        "input_2.txt: rc=1 stderr=Traceback (most recent call last):\n  File \"benchmarks/runbugrun_py/data/problems/131341/buggy.py\", line 2, in <module>\n    r=int().in",
+        "input_3.txt: rc=1 stderr=Traceback (most recent call last):\n  File \"benchmarks/runbugrun_py/data/problems/131341/buggy.py\", line 2, in <module>\n    r=int().in"
+      ]
+    },
+    {
+      "problem_id": "122030",
+      "tests_total": 101,
+      "tests_passed": 82,
+      "correctness": 0.8119,
+      "cl": 3,
+      "energy_mj": 145.60817138905205,
+      "elapsed_s": 2.884,
+      "failed_tests": [
+        "input_14.txt: output mismatch",
+        "input_21.txt: output mismatch",
+        "input_23.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "143636",
+      "tests_total": 101,
+      "tests_passed": 0,
+      "correctness": 0.0,
+      "cl": 5,
+      "energy_mj": null,
+      "elapsed_s": 0.999,
+      "failed_tests": [
+        "input_1.txt: output mismatch",
+        "input_2.txt: output mismatch",
+        "input_3.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "122036",
+      "tests_total": 101,
+      "tests_passed": 82,
+      "correctness": 0.8119,
+      "cl": 3,
+      "energy_mj": 146.00459537355275,
+      "elapsed_s": 3.589,
+      "failed_tests": [
+        "input_14.txt: output mismatch",
+        "input_21.txt: output mismatch",
+        "input_23.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "127267",
+      "tests_total": 101,
+      "tests_passed": 11,
+      "correctness": 0.1089,
+      "cl": 4,
+      "energy_mj": 148.74650588767096,
+      "elapsed_s": 3.488,
+      "failed_tests": [
+        "input_1.txt: output mismatch",
+        "input_2.txt: output mismatch",
+        "input_3.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "143880",
+      "tests_total": 65,
+      "tests_passed": 0,
+      "correctness": 0.0,
+      "cl": 10,
+      "energy_mj": null,
+      "elapsed_s": 0.646,
+      "failed_tests": [
+        "input_1.txt: output mismatch",
+        "input_2.txt: output mismatch",
+        "input_3.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "151753",
+      "tests_total": 16,
+      "tests_passed": 0,
+      "correctness": 0.0,
+      "cl": 1,
+      "energy_mj": null,
+      "elapsed_s": 0.159,
+      "failed_tests": [
+        "input_1.txt: output mismatch",
+        "input_2.txt: output mismatch",
+        "input_3.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "127332",
+      "tests_total": 101,
+      "tests_passed": 38,
+      "correctness": 0.3762,
+      "cl": 6,
+      "energy_mj": 150.9479781318652,
+      "elapsed_s": 3.835,
+      "failed_tests": [
+        "input_1.txt: output mismatch",
+        "input_3.txt: output mismatch",
+        "input_4.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "128245",
+      "tests_total": 102,
+      "tests_passed": 1,
+      "correctness": 0.0098,
+      "cl": 1,
+      "energy_mj": 160.05750512704253,
+      "elapsed_s": 3.822,
+      "failed_tests": [
+        "input_1.txt: output mismatch",
+        "input_2.txt: output mismatch",
+        "input_3.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "131537",
+      "tests_total": 102,
+      "tests_passed": 1,
+      "correctness": 0.0098,
+      "cl": 1,
+      "energy_mj": 161.8618401698768,
+      "elapsed_s": 3.007,
+      "failed_tests": [
+        "input_1.txt: output mismatch",
+        "input_2.txt: output mismatch",
+        "input_3.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "163636",
+      "tests_total": 3,
+      "tests_passed": 0,
+      "correctness": 0.0,
+      "cl": 3,
+      "energy_mj": null,
+      "elapsed_s": 0.034,
+      "failed_tests": [
+        "input_1.txt: rc=1 stderr=Traceback (most recent call last):\n  File \"benchmarks/runbugrun_py/data/problems/163636/buggy.py\", line 4, in <module>\n    printf(1)\n",
+        "input_2.txt: rc=1 stderr=Traceback (most recent call last):\n  File \"benchmarks/runbugrun_py/data/problems/163636/buggy.py\", line 4, in <module>\n    printf(1)\n",
+        "input_3.txt: rc=1 stderr=Traceback (most recent call last):\n  File \"benchmarks/runbugrun_py/data/problems/163636/buggy.py\", line 6, in <module>\n    printf(0)\n"
+      ]
+    },
+    {
+      "problem_id": "134492",
+      "tests_total": 110,
+      "tests_passed": 3,
+      "correctness": 0.0273,
+      "cl": 4,
+      "energy_mj": 176.75885930657387,
+      "elapsed_s": 2.188,
+      "failed_tests": [
+        "input_1.txt: output mismatch",
+        "input_2.txt: output mismatch",
+        "input_3.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "163637",
+      "tests_total": 3,
+      "tests_passed": 0,
+      "correctness": 0.0,
+      "cl": 3,
+      "energy_mj": null,
+      "elapsed_s": 0.051,
+      "failed_tests": [
+        "input_1.txt: rc=1 stderr=Traceback (most recent call last):\n  File \"benchmarks/runbugrun_py/data/problems/163637/buggy.py\", line 4, in <module>\n    printf(1)\n",
+        "input_2.txt: rc=1 stderr=Traceback (most recent call last):\n  File \"benchmarks/runbugrun_py/data/problems/163637/buggy.py\", line 4, in <module>\n    printf(1)\n",
+        "input_3.txt: rc=1 stderr=Traceback (most recent call last):\n  File \"benchmarks/runbugrun_py/data/problems/163637/buggy.py\", line 6, in <module>\n    printf(\"0\""
+      ]
+    },
+    {
+      "problem_id": "143643",
+      "tests_total": 101,
+      "tests_passed": 1,
+      "correctness": 0.0099,
+      "cl": 8,
+      "energy_mj": 199.5845651254058,
+      "elapsed_s": 1.432,
+      "failed_tests": [
+        "input_1.txt: rc=1 stderr=Traceback (most recent call last):\n  File \"benchmarks/runbugrun_py/data/problems/143643/buggy.py\", line 6, in <module>\n    row.append",
+        "input_2.txt: rc=1 stderr=Traceback (most recent call last):\n  File \"benchmarks/runbugrun_py/data/problems/143643/buggy.py\", line 6, in <module>\n    row.append",
+        "input_3.txt: rc=1 stderr=Traceback (most recent call last):\n  File \"benchmarks/runbugrun_py/data/problems/143643/buggy.py\", line 6, in <module>\n    row.append"
+      ]
+    },
+    {
+      "problem_id": "167587",
+      "tests_total": 34,
+      "tests_passed": 0,
+      "correctness": 0.0,
+      "cl": 5,
+      "energy_mj": null,
+      "elapsed_s": 0.619,
+      "failed_tests": [
+        "input_1.txt: output mismatch",
+        "input_2.txt: output mismatch",
+        "input_3.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "144097",
+      "tests_total": 65,
+      "tests_passed": 64,
+      "correctness": 0.9846,
+      "cl": 9,
+      "energy_mj": 213.18740513379453,
+      "elapsed_s": 1.651,
+      "failed_tests": [
+        "input_17.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "163340",
+      "tests_total": 103,
+      "tests_passed": 0,
+      "correctness": 0.0,
+      "cl": 6,
+      "energy_mj": null,
+      "elapsed_s": 1.557,
+      "failed_tests": [
+        "input_1.txt: output mismatch",
+        "input_2.txt: output mismatch",
+        "input_3.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "169031",
+      "tests_total": 103,
+      "tests_passed": 0,
+      "correctness": 0.0,
+      "cl": 2,
+      "energy_mj": null,
+      "elapsed_s": 1.485,
+      "failed_tests": [
+        "input_1.txt: rc=1 stderr=Traceback (most recent call last):\n  File \"benchmarks/runbugrun_py/data/problems/169031/buggy.py\", line 1, in <module>\n    a, b, c = ",
+        "input_2.txt: rc=1 stderr=Traceback (most recent call last):\n  File \"benchmarks/runbugrun_py/data/problems/169031/buggy.py\", line 1, in <module>\n    a, b, c = ",
+        "input_3.txt: rc=1 stderr=Traceback (most recent call last):\n  File \"benchmarks/runbugrun_py/data/problems/169031/buggy.py\", line 1, in <module>\n    a, b, c = "
+      ]
+    },
+    {
+      "problem_id": "146475",
+      "tests_total": 101,
+      "tests_passed": 64,
+      "correctness": 0.6337,
+      "cl": 9,
+      "energy_mj": 179.69397751585348,
+      "elapsed_s": 2.308,
+      "failed_tests": [
+        "input_1.txt: output mismatch",
+        "input_2.txt: output mismatch",
+        "input_4.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "178322",
+      "tests_total": 103,
+      "tests_passed": 0,
+      "correctness": 0.0,
+      "cl": 3,
+      "energy_mj": null,
+      "elapsed_s": 1.079,
+      "failed_tests": [
+        "input_1.txt: output mismatch",
+        "input_2.txt: output mismatch",
+        "input_3.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "175361",
+      "tests_total": 110,
+      "tests_passed": 0,
+      "correctness": 0.0,
+      "cl": 3,
+      "energy_mj": null,
+      "elapsed_s": 1.552,
+      "failed_tests": [
+        "input_1.txt: output mismatch",
+        "input_2.txt: output mismatch",
+        "input_3.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "162371",
+      "tests_total": 103,
+      "tests_passed": 98,
+      "correctness": 0.9515,
+      "cl": 8,
+      "energy_mj": 156.90134581634584,
+      "elapsed_s": 3.017,
+      "failed_tests": [
+        "input_19.txt: output mismatch",
+        "input_51.txt: output mismatch",
+        "input_60.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "167084",
+      "tests_total": 102,
+      "tests_passed": 99,
+      "correctness": 0.9706,
+      "cl": 8,
+      "energy_mj": 148.05251774801448,
+      "elapsed_s": 3.862,
+      "failed_tests": [
+        "input_5.txt: output mismatch",
+        "input_7.txt: output mismatch",
+        "input_9.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "172844",
+      "tests_total": 102,
+      "tests_passed": 82,
+      "correctness": 0.8039,
+      "cl": 5,
+      "energy_mj": 141.83428413916107,
+      "elapsed_s": 4.564,
+      "failed_tests": [
+        "input_12.txt: output mismatch",
+        "input_23.txt: output mismatch",
+        "input_24.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "174618",
+      "tests_total": 110,
+      "tests_passed": 62,
+      "correctness": 0.5636,
+      "cl": 2,
+      "energy_mj": 161.15476013041072,
+      "elapsed_s": 4.652,
+      "failed_tests": [
+        "input_1.txt: output mismatch",
+        "input_9.txt: output mismatch",
+        "input_11.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "177471",
+      "tests_total": 102,
+      "tests_passed": 9,
+      "correctness": 0.0882,
+      "cl": 2,
+      "energy_mj": 145.36650463317832,
+      "elapsed_s": 3.902,
+      "failed_tests": [
+        "input_1.txt: output mismatch",
+        "input_3.txt: output mismatch",
+        "input_4.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "178614",
+      "tests_total": 103,
+      "tests_passed": 86,
+      "correctness": 0.835,
+      "cl": 3,
+      "energy_mj": 146.19537266404475,
+      "elapsed_s": 4.372,
+      "failed_tests": [
+        "input_5.txt: output mismatch",
+        "input_8.txt: output mismatch",
+        "input_16.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "183049",
+      "tests_total": 53,
+      "tests_passed": 52,
+      "correctness": 0.9811,
+      "cl": 5,
+      "energy_mj": 142.7714434864286,
+      "elapsed_s": 4.079,
+      "failed_tests": [
+        "input_16.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "179883",
+      "tests_total": 103,
+      "tests_passed": 8,
+      "correctness": 0.0777,
+      "cl": 2,
+      "energy_mj": 145.9722049185075,
+      "elapsed_s": 4.19,
+      "failed_tests": [
+        "input_1.txt: output mismatch",
+        "input_2.txt: output mismatch",
+        "input_4.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "183949",
+      "tests_total": 104,
+      "tests_passed": 26,
+      "correctness": 0.25,
+      "cl": 10,
+      "energy_mj": 151.02916594164876,
+      "elapsed_s": 4.181,
+      "failed_tests": [
+        "input_2.txt: output mismatch",
+        "input_5.txt: output mismatch",
+        "input_6.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "185221",
+      "tests_total": 110,
+      "tests_passed": 21,
+      "correctness": 0.1909,
+      "cl": 3,
+      "energy_mj": 150.82647458517127,
+      "elapsed_s": 3.416,
+      "failed_tests": [
+        "input_1.txt: output mismatch",
+        "input_2.txt: output mismatch",
+        "input_3.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "186676",
+      "tests_total": 103,
+      "tests_passed": 0,
+      "correctness": 0.0,
+      "cl": 12,
+      "energy_mj": null,
+      "elapsed_s": 1.084,
+      "failed_tests": [
+        "input_1.txt: output mismatch",
+        "input_2.txt: output mismatch",
+        "input_3.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "187742",
+      "tests_total": 102,
+      "tests_passed": 0,
+      "correctness": 0.0,
+      "cl": 2,
+      "energy_mj": null,
+      "elapsed_s": 1.042,
+      "failed_tests": [
+        "input_1.txt: rc=1 stderr=Traceback (most recent call last):\n  File \"benchmarks/runbugrun_py/data/problems/187742/buggy.py\", line 2, in <module>\n    if x >= 30",
+        "input_2.txt: rc=1 stderr=Traceback (most recent call last):\n  File \"benchmarks/runbugrun_py/data/problems/187742/buggy.py\", line 2, in <module>\n    if x >= 30",
+        "input_3.txt: rc=1 stderr=Traceback (most recent call last):\n  File \"benchmarks/runbugrun_py/data/problems/187742/buggy.py\", line 2, in <module>\n    if x >= 30"
+      ]
+    },
+    {
+      "problem_id": "186102",
+      "tests_total": 104,
+      "tests_passed": 93,
+      "correctness": 0.8942,
+      "cl": 16,
+      "energy_mj": 160.69396113556238,
+      "elapsed_s": 3.636,
+      "failed_tests": [
+        "input_4.txt: rc=1 stderr=Traceback (most recent call last):\n  File \"benchmarks/runbugrun_py/data/problems/186102/buggy.py\", line 41, in <module>\n    print(res",
+        "input_6.txt: rc=1 stderr=Traceback (most recent call last):\n  File \"benchmarks/runbugrun_py/data/problems/186102/buggy.py\", line 41, in <module>\n    print(res",
+        "input_27.txt: rc=1 stderr=Traceback (most recent call last):\n  File \"benchmarks/runbugrun_py/data/problems/186102/buggy.py\", line 41, in <module>\n    print(res"
+      ]
+    },
+    {
+      "problem_id": "190019",
+      "tests_total": 103,
+      "tests_passed": 0,
+      "correctness": 0.0,
+      "cl": 4,
+      "energy_mj": null,
+      "elapsed_s": 1.053,
+      "failed_tests": [
+        "input_1.txt: output mismatch",
+        "input_2.txt: output mismatch",
+        "input_3.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "186106",
+      "tests_total": 104,
+      "tests_passed": 32,
+      "correctness": 0.3077,
+      "cl": 6,
+      "energy_mj": 154.42112140590325,
+      "elapsed_s": 3.3,
+      "failed_tests": [
+        "input_1.txt: output mismatch",
+        "input_2.txt: output mismatch",
+        "input_5.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "186224",
+      "tests_total": 104,
+      "tests_passed": 87,
+      "correctness": 0.8365,
+      "cl": 13,
+      "energy_mj": 156.62437192453393,
+      "elapsed_s": 4.121,
+      "failed_tests": [
+        "input_16.txt: output mismatch",
+        "input_19.txt: output mismatch",
+        "input_23.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "186400",
+      "tests_total": 110,
+      "tests_passed": 109,
+      "correctness": 0.9909,
+      "cl": 3,
+      "energy_mj": 141.91053410428106,
+      "elapsed_s": 4.315,
+      "failed_tests": [
+        "input_71.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "186510",
+      "tests_total": 104,
+      "tests_passed": 36,
+      "correctness": 0.3462,
+      "cl": 10,
+      "energy_mj": 142.3487216622258,
+      "elapsed_s": 4.162,
+      "failed_tests": [
+        "input_1.txt: rc=1 stderr=Traceback (most recent call last):\n  File \"benchmarks/runbugrun_py/data/problems/186510/buggy.py\", line 46, in <module>\n    main()\n  ",
+        "input_2.txt: rc=1 stderr=Traceback (most recent call last):\n  File \"benchmarks/runbugrun_py/data/problems/186510/buggy.py\", line 46, in <module>\n    main()\n  ",
+        "input_7.txt: rc=1 stderr=Traceback (most recent call last):\n  File \"benchmarks/runbugrun_py/data/problems/186510/buggy.py\", line 46, in <module>\n    main()\n  "
+      ]
+    },
+    {
+      "problem_id": "191306",
+      "tests_total": 103,
+      "tests_passed": 56,
+      "correctness": 0.5437,
+      "cl": 3,
+      "energy_mj": 145.84428023746503,
+      "elapsed_s": 3.544,
+      "failed_tests": [
+        "input_3.txt: output mismatch",
+        "input_4.txt: output mismatch",
+        "input_11.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "192662",
+      "tests_total": 103,
+      "tests_passed": 90,
+      "correctness": 0.8738,
+      "cl": 7,
+      "energy_mj": 143.74161853144565,
+      "elapsed_s": 4.021,
+      "failed_tests": [
+        "input_3.txt: output mismatch",
+        "input_8.txt: output mismatch",
+        "input_9.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "195532",
+      "tests_total": 102,
+      "tests_passed": 0,
+      "correctness": 0.0,
+      "cl": 8,
+      "energy_mj": null,
+      "elapsed_s": 0.98,
+      "failed_tests": [
+        "input_1.txt: output mismatch",
+        "input_2.txt: output mismatch",
+        "input_3.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "193199",
+      "tests_total": 102,
+      "tests_passed": 64,
+      "correctness": 0.6275,
+      "cl": 5,
+      "energy_mj": 146.63423906313255,
+      "elapsed_s": 4.591,
+      "failed_tests": [
+        "input_1.txt: output mismatch",
+        "input_2.txt: output mismatch",
+        "input_3.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "194848",
+      "tests_total": 102,
+      "tests_passed": 82,
+      "correctness": 0.8039,
+      "cl": 9,
+      "energy_mj": 145.68269230061915,
+      "elapsed_s": 5.113,
+      "failed_tests": [
+        "input_3.txt: rc=1 stderr=Traceback (most recent call last):\n  File \"benchmarks/runbugrun_py/data/problems/194848/buggy.py\", line 10, in <module>\n    print(ans",
+        "input_6.txt: rc=1 stderr=Traceback (most recent call last):\n  File \"benchmarks/runbugrun_py/data/problems/194848/buggy.py\", line 10, in <module>\n    print(ans",
+        "input_10.txt: rc=1 stderr=Traceback (most recent call last):\n  File \"benchmarks/runbugrun_py/data/problems/194848/buggy.py\", line 10, in <module>\n    print(ans"
+      ]
+    },
+    {
+      "problem_id": "198732",
+      "tests_total": 103,
+      "tests_passed": 0,
+      "correctness": 0.0,
+      "cl": 2,
+      "energy_mj": null,
+      "elapsed_s": 0.967,
+      "failed_tests": [
+        "input_1.txt: output mismatch",
+        "input_2.txt: output mismatch",
+        "input_3.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "191754",
+      "tests_total": 103,
+      "tests_passed": 97,
+      "correctness": 0.9417,
+      "cl": 4,
+      "energy_mj": 238.2331340784956,
+      "elapsed_s": 7.152,
+      "failed_tests": [
+        "input_30.txt: output mismatch",
+        "input_47.txt: output mismatch",
+        "input_53.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "195106",
+      "tests_total": 102,
+      "tests_passed": 98,
+      "correctness": 0.9608,
+      "cl": 8,
+      "energy_mj": 142.58213635838155,
+      "elapsed_s": 6.679,
+      "failed_tests": [
+        "input_32.txt: output mismatch",
+        "input_45.txt: output mismatch",
+        "input_80.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "195203",
+      "tests_total": 102,
+      "tests_passed": 98,
+      "correctness": 0.9608,
+      "cl": 8,
+      "energy_mj": 140.40389768209081,
+      "elapsed_s": 6.565,
+      "failed_tests": [
+        "input_32.txt: output mismatch",
+        "input_45.txt: output mismatch",
+        "input_80.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "195386",
+      "tests_total": 102,
+      "tests_passed": 77,
+      "correctness": 0.7549,
+      "cl": 4,
+      "energy_mj": 141.889012007454,
+      "elapsed_s": 6.951,
+      "failed_tests": [
+        "input_2.txt: output mismatch",
+        "input_4.txt: output mismatch",
+        "input_6.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "203038",
+      "tests_total": 79,
+      "tests_passed": 0,
+      "correctness": 0.0,
+      "cl": 2,
+      "energy_mj": null,
+      "elapsed_s": 0.75,
+      "failed_tests": [
+        "input_1.txt: rc=1 stderr=Traceback (most recent call last):\n  File \"benchmarks/runbugrun_py/data/problems/203038/buggy.py\", line 2, in <module>\n    a = input_",
+        "input_2.txt: rc=1 stderr=Traceback (most recent call last):\n  File \"benchmarks/runbugrun_py/data/problems/203038/buggy.py\", line 2, in <module>\n    a = input_",
+        "input_3.txt: rc=1 stderr=Traceback (most recent call last):\n  File \"benchmarks/runbugrun_py/data/problems/203038/buggy.py\", line 2, in <module>\n    a = input_"
+      ]
+    },
+    {
+      "problem_id": "196043",
+      "tests_total": 102,
+      "tests_passed": 93,
+      "correctness": 0.9118,
+      "cl": 5,
+      "energy_mj": 146.1348328889618,
+      "elapsed_s": 6.45,
+      "failed_tests": [
+        "input_2.txt: output mismatch",
+        "input_4.txt: output mismatch",
+        "input_39.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "204730",
+      "tests_total": 10,
+      "tests_passed": 0,
+      "correctness": 0.0,
+      "cl": 7,
+      "energy_mj": null,
+      "elapsed_s": 0.096,
+      "failed_tests": [
+        "input_1.txt: output mismatch",
+        "input_2.txt: output mismatch",
+        "input_3.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "196662",
+      "tests_total": 103,
+      "tests_passed": 11,
+      "correctness": 0.1068,
+      "cl": 3,
+      "energy_mj": 142.6983588713814,
+      "elapsed_s": 6.437,
+      "failed_tests": [
+        "input_2.txt: output mismatch",
+        "input_3.txt: output mismatch",
+        "input_4.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "196782",
+      "tests_total": 103,
+      "tests_passed": 6,
+      "correctness": 0.0583,
+      "cl": 3,
+      "energy_mj": 148.53541273623705,
+      "elapsed_s": 5.989,
+      "failed_tests": [
+        "input_1.txt: output mismatch",
+        "input_2.txt: output mismatch",
+        "input_3.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "200148",
+      "tests_total": 102,
+      "tests_passed": 21,
+      "correctness": 0.2059,
+      "cl": 3,
+      "energy_mj": 154.94618631367172,
+      "elapsed_s": 4.441,
+      "failed_tests": [
+        "input_2.txt: output mismatch",
+        "input_3.txt: output mismatch",
+        "input_5.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "201962",
+      "tests_total": 102,
+      "tests_passed": 100,
+      "correctness": 0.9804,
+      "cl": 7,
+      "energy_mj": 155.50873561296612,
+      "elapsed_s": 4.905,
+      "failed_tests": [
+        "input_13.txt: output mismatch",
+        "input_80.txt: rc=1 stderr=Traceback (most recent call last):\n  File \"benchmarks/runbugrun_py/data/problems/201962/buggy.py\", line 45, in <module>\n    main()\n  "
+      ]
+    },
+    {
+      "problem_id": "211816",
+      "tests_total": 103,
+      "tests_passed": 0,
+      "correctness": 0.0,
+      "cl": 6,
+      "energy_mj": null,
+      "elapsed_s": 1.31,
+      "failed_tests": [
+        "input_1.txt: rc=1 stderr=Traceback (most recent call last):\n  File \"benchmarks/runbugrun_py/data/problems/211816/buggy.py\", line 19, in <module>\n    d=[0]*(b+",
+        "input_2.txt: rc=1 stderr=Traceback (most recent call last):\n  File \"benchmarks/runbugrun_py/data/problems/211816/buggy.py\", line 19, in <module>\n    d=[0]*(b+",
+        "input_3.txt: rc=1 stderr=Traceback (most recent call last):\n  File \"benchmarks/runbugrun_py/data/problems/211816/buggy.py\", line 19, in <module>\n    d=[0]*(b+"
+      ]
+    },
+    {
+      "problem_id": "213068",
+      "tests_total": 59,
+      "tests_passed": 0,
+      "correctness": 0.0,
+      "cl": 2,
+      "energy_mj": null,
+      "elapsed_s": 0.584,
+      "failed_tests": [
+        "input_1.txt: rc=1 stderr=Traceback (most recent call last):\n  File \"benchmarks/runbugrun_py/data/problems/213068/buggy.py\", line 1, in <module>\n    import sym",
+        "input_2.txt: rc=1 stderr=Traceback (most recent call last):\n  File \"benchmarks/runbugrun_py/data/problems/213068/buggy.py\", line 1, in <module>\n    import sym",
+        "input_3.txt: rc=1 stderr=Traceback (most recent call last):\n  File \"benchmarks/runbugrun_py/data/problems/213068/buggy.py\", line 1, in <module>\n    import sym"
+      ]
+    },
+    {
+      "problem_id": "202126",
+      "tests_total": 102,
+      "tests_passed": 100,
+      "correctness": 0.9804,
+      "cl": 9,
+      "energy_mj": 174.37245470937341,
+      "elapsed_s": 5.137,
+      "failed_tests": [
+        "input_13.txt: output mismatch",
+        "input_80.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "203598",
+      "tests_total": 79,
+      "tests_passed": 77,
+      "correctness": 0.9747,
+      "cl": 2,
+      "energy_mj": 143.97954864596778,
+      "elapsed_s": 4.209,
+      "failed_tests": [
+        "input_61.txt: output mismatch",
+        "input_62.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "203224",
+      "tests_total": 102,
+      "tests_passed": 5,
+      "correctness": 0.049,
+      "cl": 3,
+      "energy_mj": 168.48949855193496,
+      "elapsed_s": 4.286,
+      "failed_tests": [
+        "input_1.txt: output mismatch",
+        "input_2.txt: output mismatch",
+        "input_3.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "206927",
+      "tests_total": 102,
+      "tests_passed": 2,
+      "correctness": 0.0196,
+      "cl": 2,
+      "energy_mj": 147.10783842019737,
+      "elapsed_s": 3.324,
+      "failed_tests": [
+        "input_1.txt: output mismatch",
+        "input_2.txt: output mismatch",
+        "input_3.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "214347",
+      "tests_total": 52,
+      "tests_passed": 0,
+      "correctness": 0.0,
+      "cl": 2,
+      "energy_mj": null,
+      "elapsed_s": 0.519,
+      "failed_tests": [
+        "input_1.txt: output mismatch",
+        "input_2.txt: output mismatch",
+        "input_3.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "210310",
+      "tests_total": 103,
+      "tests_passed": 60,
+      "correctness": 0.5825,
+      "cl": 4,
+      "energy_mj": 148.68345821741968,
+      "elapsed_s": 3.85,
+      "failed_tests": [
+        "input_1.txt: output mismatch",
+        "input_8.txt: output mismatch",
+        "input_10.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "207396",
+      "tests_total": 102,
+      "tests_passed": 56,
+      "correctness": 0.549,
+      "cl": 3,
+      "energy_mj": 151.51137889396134,
+      "elapsed_s": 4.476,
+      "failed_tests": [
+        "input_1.txt: output mismatch",
+        "input_3.txt: output mismatch",
+        "input_7.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "212119",
+      "tests_total": 103,
+      "tests_passed": 99,
+      "correctness": 0.9612,
+      "cl": 6,
+      "energy_mj": 171.54182575530174,
+      "elapsed_s": 4.295,
+      "failed_tests": [
+        "input_31.txt: output mismatch",
+        "input_66.txt: output mismatch",
+        "input_72.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "214020",
+      "tests_total": 52,
+      "tests_passed": 51,
+      "correctness": 0.9808,
+      "cl": 3,
+      "energy_mj": 139.57965845132574,
+      "elapsed_s": 3.606,
+      "failed_tests": [
+        "input_36.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "222837",
+      "tests_total": 103,
+      "tests_passed": 0,
+      "correctness": 0.0,
+      "cl": 4,
+      "energy_mj": null,
+      "elapsed_s": 0.986,
+      "failed_tests": [
+        "input_1.txt: output mismatch",
+        "input_2.txt: output mismatch",
+        "input_3.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "213802",
+      "tests_total": 105,
+      "tests_passed": 101,
+      "correctness": 0.9619,
+      "cl": 10,
+      "energy_mj": 146.9801366329193,
+      "elapsed_s": 4.902,
+      "failed_tests": [
+        "input_7.txt: output mismatch",
+        "input_23.txt: output mismatch",
+        "input_43.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "214048",
+      "tests_total": 52,
+      "tests_passed": 26,
+      "correctness": 0.5,
+      "cl": 3,
+      "energy_mj": 145.73135771430455,
+      "elapsed_s": 4.109,
+      "failed_tests": [
+        "input_2.txt: output mismatch",
+        "input_3.txt: output mismatch",
+        "input_4.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "222971",
+      "tests_total": 103,
+      "tests_passed": 0,
+      "correctness": 0.0,
+      "cl": 4,
+      "energy_mj": null,
+      "elapsed_s": 1.01,
+      "failed_tests": [
+        "input_1.txt: rc=1 stderr=Traceback (most recent call last):\n  File \"benchmarks/runbugrun_py/data/problems/222971/buggy.py\", line 1, in <module>\n    x, y = int",
+        "input_2.txt: rc=1 stderr=Traceback (most recent call last):\n  File \"benchmarks/runbugrun_py/data/problems/222971/buggy.py\", line 1, in <module>\n    x, y = int",
+        "input_3.txt: rc=1 stderr=Traceback (most recent call last):\n  File \"benchmarks/runbugrun_py/data/problems/222971/buggy.py\", line 1, in <module>\n    x, y = int"
+      ]
+    },
+    {
+      "problem_id": "215950",
+      "tests_total": 103,
+      "tests_passed": 89,
+      "correctness": 0.8641,
+      "cl": 2,
+      "energy_mj": 148.48938839656583,
+      "elapsed_s": 4.894,
+      "failed_tests": [
+        "input_6.txt: output mismatch",
+        "input_13.txt: output mismatch",
+        "input_16.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "221255",
+      "tests_total": 103,
+      "tests_passed": 99,
+      "correctness": 0.9612,
+      "cl": 3,
+      "energy_mj": 142.65373934794104,
+      "elapsed_s": 5.357,
+      "failed_tests": [
+        "input_8.txt: output mismatch",
+        "input_46.txt: output mismatch",
+        "input_60.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "221717",
+      "tests_total": 102,
+      "tests_passed": 10,
+      "correctness": 0.098,
+      "cl": 6,
+      "energy_mj": 187.66911886632442,
+      "elapsed_s": 5.367,
+      "failed_tests": [
+        "input_1.txt: rc=1 stderr=Traceback (most recent call last):\n  File \"benchmarks/runbugrun_py/data/problems/221717/buggy.py\", line 25, in <module>\n    result[ne",
+        "input_2.txt: output mismatch",
+        "input_3.txt: rc=1 stderr=Traceback (most recent call last):\n  File \"benchmarks/runbugrun_py/data/problems/221717/buggy.py\", line 25, in <module>\n    result[ne"
+      ]
+    },
+    {
+      "problem_id": "222806",
+      "tests_total": 103,
+      "tests_passed": 100,
+      "correctness": 0.9709,
+      "cl": 7,
+      "energy_mj": 145.51473401952535,
+      "elapsed_s": 5.771,
+      "failed_tests": [
+        "input_8.txt: output mismatch",
+        "input_46.txt: output mismatch",
+        "input_85.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "222903",
+      "tests_total": 103,
+      "tests_passed": 98,
+      "correctness": 0.9515,
+      "cl": 5,
+      "energy_mj": 140.81341395040556,
+      "elapsed_s": 5.082,
+      "failed_tests": [
+        "input_8.txt: output mismatch",
+        "input_46.txt: output mismatch",
+        "input_60.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "223232",
+      "tests_total": 103,
+      "tests_passed": 66,
+      "correctness": 0.6408,
+      "cl": 3,
+      "energy_mj": 141.14647161808205,
+      "elapsed_s": 4.715,
+      "failed_tests": [
+        "input_1.txt: output mismatch",
+        "input_5.txt: output mismatch",
+        "input_7.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "223556",
+      "tests_total": 103,
+      "tests_passed": 101,
+      "correctness": 0.9806,
+      "cl": 3,
+      "energy_mj": 142.23875832919143,
+      "elapsed_s": 5.42,
+      "failed_tests": [
+        "input_8.txt: output mismatch",
+        "input_85.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "223820",
+      "tests_total": 103,
+      "tests_passed": 101,
+      "correctness": 0.9806,
+      "cl": 4,
+      "energy_mj": 141.47613577931972,
+      "elapsed_s": 6.096,
+      "failed_tests": [
+        "input_8.txt: output mismatch",
+        "input_85.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "230015",
+      "tests_total": 103,
+      "tests_passed": 65,
+      "correctness": 0.6311,
+      "cl": 2,
+      "energy_mj": 141.60954393446445,
+      "elapsed_s": 6.107,
+      "failed_tests": [
+        "input_1.txt: output mismatch",
+        "input_2.txt: output mismatch",
+        "input_3.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "230428",
+      "tests_total": 103,
+      "tests_passed": 58,
+      "correctness": 0.5631,
+      "cl": 3,
+      "energy_mj": 144.6602094902432,
+      "elapsed_s": 5.726,
+      "failed_tests": [
+        "input_1.txt: output mismatch",
+        "input_2.txt: output mismatch",
+        "input_3.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "239138",
+      "tests_total": 106,
+      "tests_passed": 0,
+      "correctness": 0.0,
+      "cl": 1,
+      "energy_mj": null,
+      "elapsed_s": 1.062,
+      "failed_tests": [
+        "input_1.txt: rc=1 stderr=Traceback (most recent call last):\n  File \"benchmarks/runbugrun_py/data/problems/239138/buggy.py\", line 10, in <module>\n    main()\n  ",
+        "input_2.txt: rc=1 stderr=Traceback (most recent call last):\n  File \"benchmarks/runbugrun_py/data/problems/239138/buggy.py\", line 10, in <module>\n    main()\n  ",
+        "input_3.txt: rc=1 stderr=Traceback (most recent call last):\n  File \"benchmarks/runbugrun_py/data/problems/239138/buggy.py\", line 10, in <module>\n    main()\n  "
+      ]
+    },
+    {
+      "problem_id": "233547",
+      "tests_total": 106,
+      "tests_passed": 101,
+      "correctness": 0.9528,
+      "cl": 5,
+      "energy_mj": 146.00860309962295,
+      "elapsed_s": 6.584,
+      "failed_tests": [
+        "input_76.txt: output mismatch",
+        "input_82.txt: output mismatch",
+        "input_103.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "234706",
+      "tests_total": 106,
+      "tests_passed": 104,
+      "correctness": 0.9811,
+      "cl": 5,
+      "energy_mj": 142.79373390868736,
+      "elapsed_s": 6.604,
+      "failed_tests": [
+        "input_3.txt: output mismatch",
+        "input_87.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "235772",
+      "tests_total": 106,
+      "tests_passed": 2,
+      "correctness": 0.0189,
+      "cl": 6,
+      "energy_mj": 146.47922187577933,
+      "elapsed_s": 5.723,
+      "failed_tests": [
+        "input_1.txt: output mismatch",
+        "input_2.txt: output mismatch",
+        "input_4.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "235797",
+      "tests_total": 106,
+      "tests_passed": 2,
+      "correctness": 0.0189,
+      "cl": 5,
+      "energy_mj": 147.6434525102377,
+      "elapsed_s": 5.141,
+      "failed_tests": [
+        "input_1.txt: output mismatch",
+        "input_2.txt: output mismatch",
+        "input_4.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "235905",
+      "tests_total": 106,
+      "tests_passed": 101,
+      "correctness": 0.9528,
+      "cl": 4,
+      "energy_mj": 147.97288302037092,
+      "elapsed_s": 5.179,
+      "failed_tests": [
+        "input_76.txt: output mismatch",
+        "input_82.txt: output mismatch",
+        "input_103.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "240704",
+      "tests_total": 101,
+      "tests_passed": 0,
+      "correctness": 0.0,
+      "cl": 8,
+      "energy_mj": null,
+      "elapsed_s": 1.23,
+      "failed_tests": [
+        "input_1.txt: output mismatch",
+        "input_2.txt: output mismatch",
+        "input_3.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "238962",
+      "tests_total": 106,
+      "tests_passed": 104,
+      "correctness": 0.9811,
+      "cl": 1,
+      "energy_mj": 153.85208911119173,
+      "elapsed_s": 5.293,
+      "failed_tests": [
+        "input_5.txt: output mismatch",
+        "input_13.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "239618",
+      "tests_total": 106,
+      "tests_passed": 60,
+      "correctness": 0.566,
+      "cl": 1,
+      "energy_mj": 147.75335125159472,
+      "elapsed_s": 4.709,
+      "failed_tests": [
+        "input_2.txt: output mismatch",
+        "input_6.txt: output mismatch",
+        "input_7.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "244662",
+      "tests_total": 103,
+      "tests_passed": 0,
+      "correctness": 0.0,
+      "cl": 11,
+      "energy_mj": null,
+      "elapsed_s": 1.036,
+      "failed_tests": [
+        "input_1.txt: output mismatch",
+        "input_2.txt: output mismatch",
+        "input_3.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "239981",
+      "tests_total": 106,
+      "tests_passed": 45,
+      "correctness": 0.4245,
+      "cl": 1,
+      "energy_mj": 151.42671996727586,
+      "elapsed_s": 4.662,
+      "failed_tests": [
+        "input_2.txt: output mismatch",
+        "input_6.txt: output mismatch",
+        "input_7.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "240376",
+      "tests_total": 106,
+      "tests_passed": 45,
+      "correctness": 0.4245,
+      "cl": 1,
+      "energy_mj": 200.32957568764687,
+      "elapsed_s": 4.781,
+      "failed_tests": [
+        "input_2.txt: output mismatch",
+        "input_6.txt: output mismatch",
+        "input_7.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "241756",
+      "tests_total": 102,
+      "tests_passed": 78,
+      "correctness": 0.7647,
+      "cl": 6,
+      "energy_mj": 153.15429262745266,
+      "elapsed_s": 3.51,
+      "failed_tests": [
+        "input_3.txt: output mismatch",
+        "input_4.txt: output mismatch",
+        "input_7.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "243024",
+      "tests_total": 102,
+      "tests_passed": 96,
+      "correctness": 0.9412,
+      "cl": 6,
+      "energy_mj": 149.26827388990205,
+      "elapsed_s": 4.313,
+      "failed_tests": [
+        "input_8.txt: output mismatch",
+        "input_38.txt: output mismatch",
+        "input_39.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "241429",
+      "tests_total": 101,
+      "tests_passed": 2,
+      "correctness": 0.0198,
+      "cl": 11,
+      "energy_mj": 152.2490131901577,
+      "elapsed_s": 5.505,
+      "failed_tests": [
+        "input_1.txt: output mismatch",
+        "input_2.txt: output mismatch",
+        "input_3.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "245239",
+      "tests_total": 103,
+      "tests_passed": 53,
+      "correctness": 0.5146,
+      "cl": 3,
+      "energy_mj": 150.42659360915422,
+      "elapsed_s": 3.382,
+      "failed_tests": [
+        "input_1.txt: output mismatch",
+        "input_2.txt: output mismatch",
+        "input_3.txt: rc=1 stderr=Traceback (most recent call last):\n  File \"benchmarks/runbugrun_py/data/problems/245239/buggy.py\", line 6, in <module>\n    if int(N[:"
+      ]
+    },
+    {
+      "problem_id": "245462",
+      "tests_total": 103,
+      "tests_passed": 89,
+      "correctness": 0.8641,
+      "cl": 6,
+      "energy_mj": 150.43539272391058,
+      "elapsed_s": 3.83,
+      "failed_tests": [
+        "input_5.txt: output mismatch",
+        "input_28.txt: output mismatch",
+        "input_30.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "245736",
+      "tests_total": 103,
+      "tests_passed": 93,
+      "correctness": 0.9029,
+      "cl": 3,
+      "energy_mj": 147.27837128204203,
+      "elapsed_s": 4.734,
+      "failed_tests": [
+        "input_3.txt: output mismatch",
+        "input_9.txt: output mismatch",
+        "input_14.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "245898",
+      "tests_total": 105,
+      "tests_passed": 103,
+      "correctness": 0.981,
+      "cl": 4,
+      "energy_mj": 144.70261193866145,
+      "elapsed_s": 5.126,
+      "failed_tests": [
+        "input_104.txt: output mismatch",
+        "input_105.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "246240",
+      "tests_total": 105,
+      "tests_passed": 103,
+      "correctness": 0.981,
+      "cl": 2,
+      "energy_mj": 139.90041128477282,
+      "elapsed_s": 5.291,
+      "failed_tests": [
+        "input_104.txt: output mismatch",
+        "input_105.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "246580",
+      "tests_total": 105,
+      "tests_passed": 66,
+      "correctness": 0.6286,
+      "cl": 2,
+      "energy_mj": 139.2107702453028,
+      "elapsed_s": 4.948,
+      "failed_tests": [
+        "input_1.txt: output mismatch",
+        "input_3.txt: output mismatch",
+        "input_8.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "249833",
+      "tests_total": 101,
+      "tests_passed": 0,
+      "correctness": 0.0,
+      "cl": 7,
+      "energy_mj": null,
+      "elapsed_s": 1.161,
+      "failed_tests": [
+        "input_1.txt: rc=1 stderr=Traceback (most recent call last):\n  File \"benchmarks/runbugrun_py/data/problems/249833/buggy.py\", line 34, in <module>\n    main()\n  ",
+        "input_2.txt: rc=1 stderr=Traceback (most recent call last):\n  File \"benchmarks/runbugrun_py/data/problems/249833/buggy.py\", line 34, in <module>\n    main()\n  ",
+        "input_3.txt: rc=1 stderr=Traceback (most recent call last):\n  File \"benchmarks/runbugrun_py/data/problems/249833/buggy.py\", line 34, in <module>\n    main()\n  "
+      ]
+    },
+    {
+      "problem_id": "247045",
+      "tests_total": 105,
+      "tests_passed": 68,
+      "correctness": 0.6476,
+      "cl": 2,
+      "energy_mj": 144.56363405128394,
+      "elapsed_s": 5.562,
+      "failed_tests": [
+        "input_1.txt: output mismatch",
+        "input_3.txt: output mismatch",
+        "input_8.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "248966",
+      "tests_total": 102,
+      "tests_passed": 7,
+      "correctness": 0.0686,
+      "cl": 1,
+      "energy_mj": 153.3175549203796,
+      "elapsed_s": 5.103,
+      "failed_tests": [
+        "input_1.txt: output mismatch",
+        "input_2.txt: output mismatch",
+        "input_3.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "249167",
+      "tests_total": 102,
+      "tests_passed": 7,
+      "correctness": 0.0686,
+      "cl": 2,
+      "energy_mj": 161.38875990041666,
+      "elapsed_s": 4.285,
+      "failed_tests": [
+        "input_1.txt: output mismatch",
+        "input_2.txt: output mismatch",
+        "input_3.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "240982",
+      "tests_total": 101,
+      "tests_passed": 7,
+      "correctness": 0.0693,
+      "cl": 11,
+      "energy_mj": 164.5542255469731,
+      "elapsed_s": 11.332,
+      "failed_tests": [
+        "input_1.txt: output mismatch",
+        "input_2.txt: output mismatch",
+        "input_3.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "249422",
+      "tests_total": 102,
+      "tests_passed": 7,
+      "correctness": 0.0686,
+      "cl": 2,
+      "energy_mj": 209.21054994687438,
+      "elapsed_s": 3.546,
+      "failed_tests": [
+        "input_1.txt: output mismatch",
+        "input_2.txt: output mismatch",
+        "input_3.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "249434",
+      "tests_total": 102,
+      "tests_passed": 1,
+      "correctness": 0.0098,
+      "cl": 1,
+      "energy_mj": 227.7567656710744,
+      "elapsed_s": 2.597,
+      "failed_tests": [
+        "input_1.txt: output mismatch",
+        "input_2.txt: output mismatch",
+        "input_3.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "250709",
+      "tests_total": 101,
+      "tests_passed": 24,
+      "correctness": 0.2376,
+      "cl": 7,
+      "energy_mj": 233.1376276561059,
+      "elapsed_s": 1.708,
+      "failed_tests": [
+        "input_3.txt: output mismatch",
+        "input_4.txt: output mismatch",
+        "input_5.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "252487",
+      "tests_total": 103,
+      "tests_passed": 0,
+      "correctness": 0.0,
+      "cl": 3,
+      "energy_mj": null,
+      "elapsed_s": 1.44,
+      "failed_tests": [
+        "input_1.txt: output mismatch",
+        "input_2.txt: output mismatch",
+        "input_3.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "251601",
+      "tests_total": 103,
+      "tests_passed": 68,
+      "correctness": 0.6602,
+      "cl": 3,
+      "energy_mj": 157.09159498596017,
+      "elapsed_s": 2.176,
+      "failed_tests": [
+        "input_6.txt: rc=1 stderr=Traceback (most recent call last):\n  File \"benchmarks/runbugrun_py/data/problems/251601/buggy.py\", line 4, in <module>\n    t = s[1]\n ",
+        "input_9.txt: rc=1 stderr=Traceback (most recent call last):\n  File \"benchmarks/runbugrun_py/data/problems/251601/buggy.py\", line 4, in <module>\n    t = s[1]\n ",
+        "input_11.txt: rc=1 stderr=Traceback (most recent call last):\n  File \"benchmarks/runbugrun_py/data/problems/251601/buggy.py\", line 4, in <module>\n    t = s[1]\n "
+      ]
+    },
+    {
+      "problem_id": "251137",
+      "tests_total": 102,
+      "tests_passed": 21,
+      "correctness": 0.2059,
+      "cl": 13,
+      "energy_mj": 179.52805351732033,
+      "elapsed_s": 2.534,
+      "failed_tests": [
+        "input_1.txt: output mismatch",
+        "input_2.txt: output mismatch",
+        "input_5.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "252457",
+      "tests_total": 103,
+      "tests_passed": 95,
+      "correctness": 0.9223,
+      "cl": 4,
+      "energy_mj": 144.2852939577087,
+      "elapsed_s": 3.27,
+      "failed_tests": [
+        "input_22.txt: output mismatch",
+        "input_31.txt: output mismatch",
+        "input_41.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "255919",
+      "tests_total": 111,
+      "tests_passed": 0,
+      "correctness": 0.0,
+      "cl": 8,
+      "energy_mj": null,
+      "elapsed_s": 1.242,
+      "failed_tests": [
+        "input_1.txt: output mismatch",
+        "input_2.txt: output mismatch",
+        "input_3.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "252807",
+      "tests_total": 103,
+      "tests_passed": 95,
+      "correctness": 0.9223,
+      "cl": 2,
+      "energy_mj": 143.12377547551142,
+      "elapsed_s": 4.024,
+      "failed_tests": [
+        "input_22.txt: output mismatch",
+        "input_31.txt: output mismatch",
+        "input_41.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "253139",
+      "tests_total": 103,
+      "tests_passed": 11,
+      "correctness": 0.1068,
+      "cl": 3,
+      "energy_mj": 287.03593543138015,
+      "elapsed_s": 4.138,
+      "failed_tests": [
+        "input_1.txt: output mismatch",
+        "input_2.txt: output mismatch",
+        "input_3.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "256168",
+      "tests_total": 111,
+      "tests_passed": 0,
+      "correctness": 0.0,
+      "cl": 12,
+      "energy_mj": null,
+      "elapsed_s": 1.992,
+      "failed_tests": [
+        "input_1.txt: output mismatch",
+        "input_2.txt: output mismatch",
+        "input_3.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "253555",
+      "tests_total": 103,
+      "tests_passed": 69,
+      "correctness": 0.6699,
+      "cl": 3,
+      "energy_mj": 276.78477243803763,
+      "elapsed_s": 5.365,
+      "failed_tests": [
+        "input_1.txt: output mismatch",
+        "input_3.txt: output mismatch",
+        "input_5.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "254213",
+      "tests_total": 103,
+      "tests_passed": 99,
+      "correctness": 0.9612,
+      "cl": 4,
+      "energy_mj": 283.94880895079535,
+      "elapsed_s": 6.555,
+      "failed_tests": [
+        "input_7.txt: output mismatch",
+        "input_42.txt: output mismatch",
+        "input_69.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "254310",
+      "tests_total": 103,
+      "tests_passed": 99,
+      "correctness": 0.9612,
+      "cl": 3,
+      "energy_mj": 324.4432250291786,
+      "elapsed_s": 8.162,
+      "failed_tests": [
+        "input_7.txt: output mismatch",
+        "input_42.txt: output mismatch",
+        "input_69.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "255059",
+      "tests_total": 103,
+      "tests_passed": 99,
+      "correctness": 0.9612,
+      "cl": 4,
+      "energy_mj": 357.2952144101939,
+      "elapsed_s": 9.932,
+      "failed_tests": [
+        "input_7.txt: output mismatch",
+        "input_42.txt: output mismatch",
+        "input_69.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "256051",
+      "tests_total": 111,
+      "tests_passed": 16,
+      "correctness": 0.1441,
+      "cl": 14,
+      "energy_mj": 452.33208729769103,
+      "elapsed_s": 9.249,
+      "failed_tests": [
+        "input_1.txt: output mismatch",
+        "input_2.txt: output mismatch",
+        "input_3.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "257247",
+      "tests_total": 108,
+      "tests_passed": 32,
+      "correctness": 0.2963,
+      "cl": 4,
+      "energy_mj": 308.2235033798497,
+      "elapsed_s": 8.793,
+      "failed_tests": [
+        "input_1.txt: output mismatch",
+        "input_2.txt: output mismatch",
+        "input_3.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "257805",
+      "tests_total": 108,
+      "tests_passed": 107,
+      "correctness": 0.9907,
+      "cl": 5,
+      "energy_mj": 332.21531087080035,
+      "elapsed_s": 9.965,
+      "failed_tests": [
+        "input_25.txt: rc=1 stderr=Traceback (most recent call last):\n  File \"benchmarks/runbugrun_py/data/problems/257805/buggy.py\", line 27, in <module>\n    ans = tl["
+      ]
+    },
+    {
+      "problem_id": "258201",
+      "tests_total": 108,
+      "tests_passed": 107,
+      "correctness": 0.9907,
+      "cl": 6,
+      "energy_mj": 305.7822649297522,
+      "elapsed_s": 12.075,
+      "failed_tests": [
+        "input_25.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "260191",
+      "tests_total": 2,
+      "tests_passed": 1,
+      "correctness": 0.5,
+      "cl": 3,
+      "energy_mj": 320.58834563940763,
+      "elapsed_s": 8.123,
+      "failed_tests": [
+        "input_1.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "260449",
+      "tests_total": 2,
+      "tests_passed": 1,
+      "correctness": 0.5,
+      "cl": 3,
+      "energy_mj": 234.28161861374974,
+      "elapsed_s": 5.812,
+      "failed_tests": [
+        "input_2.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "266609",
+      "tests_total": 9,
+      "tests_passed": 0,
+      "correctness": 0.0,
+      "cl": 4,
+      "energy_mj": null,
+      "elapsed_s": 0.18,
+      "failed_tests": [
+        "input_1.txt: output mismatch",
+        "input_2.txt: output mismatch",
+        "input_3.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "261886",
+      "tests_total": 101,
+      "tests_passed": 19,
+      "correctness": 0.1881,
+      "cl": 3,
+      "energy_mj": 303.6501033133582,
+      "elapsed_s": 5.714,
+      "failed_tests": [
+        "input_1.txt: output mismatch",
+        "input_2.txt: output mismatch",
+        "input_4.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "262551",
+      "tests_total": 102,
+      "tests_passed": 4,
+      "correctness": 0.0392,
+      "cl": 6,
+      "energy_mj": 307.4321587337181,
+      "elapsed_s": 5.132,
+      "failed_tests": [
+        "input_1.txt: rc=1 stderr=Traceback (most recent call last):\n  File \"benchmarks/runbugrun_py/data/problems/262551/buggy.py\", line 7, in <module>\n    a, b = [in",
+        "input_2.txt: rc=1 stderr=Traceback (most recent call last):\n  File \"benchmarks/runbugrun_py/data/problems/262551/buggy.py\", line 7, in <module>\n    a, b = [in",
+        "input_3.txt: rc=1 stderr=Traceback (most recent call last):\n  File \"benchmarks/runbugrun_py/data/problems/262551/buggy.py\", line 7, in <module>\n    a, b = [in"
+      ]
+    },
+    {
+      "problem_id": "269978",
+      "tests_total": 103,
+      "tests_passed": 0,
+      "correctness": 0.0,
+      "cl": 3,
+      "energy_mj": null,
+      "elapsed_s": 2.734,
+      "failed_tests": [
+        "input_1.txt: output mismatch",
+        "input_2.txt: output mismatch",
+        "input_3.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "256863",
+      "tests_total": 111,
+      "tests_passed": 109,
+      "correctness": 0.982,
+      "cl": 7,
+      "energy_mj": 1230.3387667394218,
+      "elapsed_s": 23.079,
+      "failed_tests": [
+        "input_57.txt: output mismatch",
+        "input_107.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "264088",
+      "tests_total": 9,
+      "tests_passed": 8,
+      "correctness": 0.8889,
+      "cl": 4,
+      "energy_mj": 3074.8567919363268,
+      "elapsed_s": 13.341,
+      "failed_tests": [
+        "input_6.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "264120",
+      "tests_total": 9,
+      "tests_passed": 3,
+      "correctness": 0.3333,
+      "cl": 4,
+      "energy_mj": 162.17257361859083,
+      "elapsed_s": 11.192,
+      "failed_tests": [
+        "input_1.txt: output mismatch",
+        "input_2.txt: output mismatch",
+        "input_3.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "258400",
+      "tests_total": 108,
+      "tests_passed": 106,
+      "correctness": 0.9815,
+      "cl": 7,
+      "energy_mj": 1082.6988914050162,
+      "elapsed_s": 29.045,
+      "failed_tests": [
+        "input_33.txt: output mismatch",
+        "input_59.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "279720",
+      "tests_total": 102,
+      "tests_passed": 0,
+      "correctness": 0.0,
+      "cl": 5,
+      "energy_mj": null,
+      "elapsed_s": 0.965,
+      "failed_tests": [
+        "input_1.txt: rc=1 stderr=File \"benchmarks/runbugrun_py/data/problems/279720/buggy.py\", line 10\n    return\n    ^^^^^^\nSyntaxError: 'return' outside function",
+        "input_2.txt: rc=1 stderr=File \"benchmarks/runbugrun_py/data/problems/279720/buggy.py\", line 10\n    return\n    ^^^^^^\nSyntaxError: 'return' outside function",
+        "input_3.txt: rc=1 stderr=File \"benchmarks/runbugrun_py/data/problems/279720/buggy.py\", line 10\n    return\n    ^^^^^^\nSyntaxError: 'return' outside function"
+      ]
+    },
+    {
+      "problem_id": "268088",
+      "tests_total": 104,
+      "tests_passed": 102,
+      "correctness": 0.9808,
+      "cl": 12,
+      "energy_mj": 142.01435589176768,
+      "elapsed_s": 19.699,
+      "failed_tests": [
+        "input_38.txt: output mismatch",
+        "input_79.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "268419",
+      "tests_total": 103,
+      "tests_passed": 98,
+      "correctness": 0.9515,
+      "cl": 4,
+      "energy_mj": 145.2230477506029,
+      "elapsed_s": 20.515,
+      "failed_tests": [
+        "input_7.txt: output mismatch",
+        "input_65.txt: output mismatch",
+        "input_75.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "279812",
+      "tests_total": 103,
+      "tests_passed": 0,
+      "correctness": 0.0,
+      "cl": 3,
+      "energy_mj": null,
+      "elapsed_s": 1.013,
+      "failed_tests": [
+        "input_1.txt: rc=1 stderr=Traceback (most recent call last):\n  File \"benchmarks/runbugrun_py/data/problems/279812/buggy.py\", line 2, in <module>\n    s = [int(i",
+        "input_2.txt: rc=1 stderr=Traceback (most recent call last):\n  File \"benchmarks/runbugrun_py/data/problems/279812/buggy.py\", line 2, in <module>\n    s = [int(i",
+        "input_3.txt: rc=1 stderr=Traceback (most recent call last):\n  File \"benchmarks/runbugrun_py/data/problems/279812/buggy.py\", line 2, in <module>\n    s = [int(i"
+      ]
+    },
+    {
+      "problem_id": "281654",
+      "tests_total": 7,
+      "tests_passed": 0,
+      "correctness": 0.0,
+      "cl": 1,
+      "energy_mj": null,
+      "elapsed_s": 0.072,
+      "failed_tests": [
+        "input_1.txt: rc=1 stderr=Traceback (most recent call last):\n  File \"benchmarks/runbugrun_py/data/problems/281654/buggy.py\", line 2, in <module>\n    print(r*2*",
+        "input_2.txt: rc=1 stderr=Traceback (most recent call last):\n  File \"benchmarks/runbugrun_py/data/problems/281654/buggy.py\", line 2, in <module>\n    print(r*2*",
+        "input_3.txt: rc=1 stderr=Traceback (most recent call last):\n  File \"benchmarks/runbugrun_py/data/problems/281654/buggy.py\", line 2, in <module>\n    print(r*2*"
+      ]
+    },
+    {
+      "problem_id": "280053",
+      "tests_total": 103,
+      "tests_passed": 0,
+      "correctness": 0.0,
+      "cl": 2,
+      "energy_mj": null,
+      "elapsed_s": 1.192,
+      "failed_tests": [
+        "input_1.txt: rc=1 stderr=Traceback (most recent call last):\n  File \"benchmarks/runbugrun_py/data/problems/280053/buggy.py\", line 5, in <module>\n    print(len(",
+        "input_2.txt: rc=1 stderr=Traceback (most recent call last):\n  File \"benchmarks/runbugrun_py/data/problems/280053/buggy.py\", line 5, in <module>\n    print(len(",
+        "input_3.txt: rc=1 stderr=Traceback (most recent call last):\n  File \"benchmarks/runbugrun_py/data/problems/280053/buggy.py\", line 5, in <module>\n    print(len("
+      ]
+    },
+    {
+      "problem_id": "274643",
+      "tests_total": 102,
+      "tests_passed": 96,
+      "correctness": 0.9412,
+      "cl": 2,
+      "energy_mj": 147.6270915736677,
+      "elapsed_s": 21.127,
+      "failed_tests": [
+        "input_43.txt: output mismatch",
+        "input_45.txt: output mismatch",
+        "input_48.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "280145",
+      "tests_total": 103,
+      "tests_passed": 0,
+      "correctness": 0.0,
+      "cl": 3,
+      "energy_mj": null,
+      "elapsed_s": 1.016,
+      "failed_tests": [
+        "input_1.txt: output mismatch",
+        "input_2.txt: output mismatch",
+        "input_3.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "275753",
+      "tests_total": 103,
+      "tests_passed": 92,
+      "correctness": 0.8932,
+      "cl": 2,
+      "energy_mj": 144.57406630516863,
+      "elapsed_s": 19.362,
+      "failed_tests": [
+        "input_21.txt: output mismatch",
+        "input_22.txt: output mismatch",
+        "input_26.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "276059",
+      "tests_total": 103,
+      "tests_passed": 92,
+      "correctness": 0.8932,
+      "cl": 2,
+      "energy_mj": 141.69439779716018,
+      "elapsed_s": 13.942,
+      "failed_tests": [
+        "input_21.txt: output mismatch",
+        "input_22.txt: output mismatch",
+        "input_26.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "278566",
+      "tests_total": 102,
+      "tests_passed": 100,
+      "correctness": 0.9804,
+      "cl": 4,
+      "energy_mj": 288.7570075923577,
+      "elapsed_s": 14.228,
+      "failed_tests": [
+        "input_55.txt: output mismatch",
+        "input_87.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "279282",
+      "tests_total": 102,
+      "tests_passed": 16,
+      "correctness": 0.1569,
+      "cl": 4,
+      "energy_mj": 305.9524716809392,
+      "elapsed_s": 14.522,
+      "failed_tests": [
+        "input_1.txt: output mismatch",
+        "input_2.txt: output mismatch",
+        "input_4.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "282231",
+      "tests_total": 7,
+      "tests_passed": 1,
+      "correctness": 0.1429,
+      "cl": 1,
+      "energy_mj": 304.67320466414094,
+      "elapsed_s": 4.882,
+      "failed_tests": [
+        "input_1.txt: output mismatch",
+        "input_3.txt: output mismatch",
+        "input_4.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "282901",
+      "tests_total": 7,
+      "tests_passed": 1,
+      "correctness": 0.1429,
+      "cl": 1,
+      "energy_mj": 183.4683446213603,
+      "elapsed_s": 4.811,
+      "failed_tests": [
+        "input_1.txt: output mismatch",
+        "input_3.txt: output mismatch",
+        "input_4.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "285122",
+      "tests_total": 103,
+      "tests_passed": 0,
+      "correctness": 0.0,
+      "cl": 3,
+      "energy_mj": null,
+      "elapsed_s": 2.399,
+      "failed_tests": [
+        "input_1.txt: output mismatch",
+        "input_2.txt: output mismatch",
+        "input_3.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "287586",
+      "tests_total": 103,
+      "tests_passed": 0,
+      "correctness": 0.0,
+      "cl": 2,
+      "energy_mj": null,
+      "elapsed_s": 2.341,
+      "failed_tests": [
+        "input_1.txt: output mismatch",
+        "input_2.txt: output mismatch",
+        "input_3.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "283125",
+      "tests_total": 104,
+      "tests_passed": 102,
+      "correctness": 0.9808,
+      "cl": 2,
+      "energy_mj": 338.56736263260245,
+      "elapsed_s": 6.412,
+      "failed_tests": [
+        "input_77.txt: output mismatch",
+        "input_81.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "287926",
+      "tests_total": 103,
+      "tests_passed": 0,
+      "correctness": 0.0,
+      "cl": 2,
+      "energy_mj": null,
+      "elapsed_s": 2.464,
+      "failed_tests": [
+        "input_1.txt: rc=1 stderr=Traceback (most recent call last):\n  File \"benchmarks/runbugrun_py/data/problems/287926/buggy.py\", line 2, in <module>\n    if a in 7:",
+        "input_2.txt: rc=1 stderr=Traceback (most recent call last):\n  File \"benchmarks/runbugrun_py/data/problems/287926/buggy.py\", line 2, in <module>\n    if a in 7:",
+        "input_3.txt: rc=1 stderr=Traceback (most recent call last):\n  File \"benchmarks/runbugrun_py/data/problems/287926/buggy.py\", line 2, in <module>\n    if a in 7:"
+      ]
+    },
+    {
+      "problem_id": "283459",
+      "tests_total": 104,
+      "tests_passed": 102,
+      "correctness": 0.9808,
+      "cl": 2,
+      "energy_mj": 388.4774473194471,
+      "elapsed_s": 8.983,
+      "failed_tests": [
+        "input_77.txt: output mismatch",
+        "input_81.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "284510",
+      "tests_total": 104,
+      "tests_passed": 4,
+      "correctness": 0.0385,
+      "cl": 3,
+      "energy_mj": 315.31684391666204,
+      "elapsed_s": 8.25,
+      "failed_tests": [
+        "input_1.txt: output mismatch",
+        "input_2.txt: output mismatch",
+        "input_3.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "284909",
+      "tests_total": 103,
+      "tests_passed": 0,
+      "correctness": 0.0,
+      "cl": 3,
+      "energy_mj": null,
+      "elapsed_s": 11.278,
+      "failed_tests": [
+        "input_1.txt: output mismatch",
+        "input_2.txt: output mismatch",
+        "input_3.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "297346",
+      "tests_total": 132,
+      "tests_passed": 112,
+      "correctness": 0.8485,
+      "cl": 4,
+      "energy_mj": 437.76111298939213,
+      "elapsed_s": 6.983,
+      "failed_tests": [
+        "input_4.txt: output mismatch",
+        "input_10.txt: output mismatch",
+        "input_17.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "298070",
+      "tests_total": 132,
+      "tests_passed": 128,
+      "correctness": 0.9697,
+      "cl": 4,
+      "energy_mj": 368.3054939028807,
+      "elapsed_s": 10.002,
+      "failed_tests": [
+        "input_17.txt: output mismatch",
+        "input_49.txt: output mismatch",
+        "input_119.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "298977",
+      "tests_total": 132,
+      "tests_passed": 128,
+      "correctness": 0.9697,
+      "cl": 5,
+      "energy_mj": 322.20639539445983,
+      "elapsed_s": 10.234,
+      "failed_tests": [
+        "input_17.txt: output mismatch",
+        "input_49.txt: output mismatch",
+        "input_119.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "302421",
+      "tests_total": 96,
+      "tests_passed": 0,
+      "correctness": 0.0,
+      "cl": 2,
+      "energy_mj": null,
+      "elapsed_s": 2.108,
+      "failed_tests": [
+        "input_1.txt: output mismatch",
+        "input_2.txt: output mismatch",
+        "input_3.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "291242",
+      "tests_total": 102,
+      "tests_passed": 52,
+      "correctness": 0.5098,
+      "cl": 4,
+      "energy_mj": 1262.597926095343,
+      "elapsed_s": 17.589,
+      "failed_tests": [
+        "input_2.txt: output mismatch",
+        "input_3.txt: output mismatch",
+        "input_4.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "302911",
+      "tests_total": 104,
+      "tests_passed": 0,
+      "correctness": 0.0,
+      "cl": 8,
+      "energy_mj": null,
+      "elapsed_s": 1.657,
+      "failed_tests": [
+        "input_1.txt: output mismatch",
+        "input_2.txt: output mismatch",
+        "input_3.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "291557",
+      "tests_total": 102,
+      "tests_passed": 52,
+      "correctness": 0.5098,
+      "cl": 5,
+      "energy_mj": 1121.773747816825,
+      "elapsed_s": 21.21,
+      "failed_tests": [
+        "input_2.txt: output mismatch",
+        "input_3.txt: output mismatch",
+        "input_4.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "299441",
+      "tests_total": 132,
+      "tests_passed": 128,
+      "correctness": 0.9697,
+      "cl": 5,
+      "energy_mj": 140.30934202310164,
+      "elapsed_s": 15.724,
+      "failed_tests": [
+        "input_17.txt: output mismatch",
+        "input_49.txt: output mismatch",
+        "input_119.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "299672",
+      "tests_total": 132,
+      "tests_passed": 56,
+      "correctness": 0.4242,
+      "cl": 5,
+      "energy_mj": 143.16413514149775,
+      "elapsed_s": 15.896,
+      "failed_tests": [
+        "input_4.txt: output mismatch",
+        "input_5.txt: output mismatch",
+        "input_7.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "303840",
+      "tests_total": 103,
+      "tests_passed": 0,
+      "correctness": 0.0,
+      "cl": 3,
+      "energy_mj": null,
+      "elapsed_s": 0.977,
+      "failed_tests": [
+        "input_1.txt: output mismatch",
+        "input_2.txt: output mismatch",
+        "input_3.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "300516",
+      "tests_total": 132,
+      "tests_passed": 128,
+      "correctness": 0.9697,
+      "cl": 5,
+      "energy_mj": 139.03770515753422,
+      "elapsed_s": 13.938,
+      "failed_tests": [
+        "input_17.txt: output mismatch",
+        "input_49.txt: output mismatch",
+        "input_119.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "302556",
+      "tests_total": 104,
+      "tests_passed": 102,
+      "correctness": 0.9808,
+      "cl": 5,
+      "energy_mj": 138.43013863901004,
+      "elapsed_s": 10.027,
+      "failed_tests": [
+        "input_62.txt: rc=1 stderr=Traceback (most recent call last):\n  File \"benchmarks/runbugrun_py/data/problems/302556/buggy.py\", line 16, in <module>\n    print(sor",
+        "input_64.txt: rc=1 stderr=Traceback (most recent call last):\n  File \"benchmarks/runbugrun_py/data/problems/302556/buggy.py\", line 16, in <module>\n    print(sor"
+      ]
+    },
+    {
+      "problem_id": "299378",
+      "tests_total": 132,
+      "tests_passed": 128,
+      "correctness": 0.9697,
+      "cl": 2,
+      "energy_mj": 1036.0358065008768,
+      "elapsed_s": 31.126,
+      "failed_tests": [
+        "input_17.txt: output mismatch",
+        "input_49.txt: output mismatch",
+        "input_119.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "290614",
+      "tests_total": 102,
+      "tests_passed": 1,
+      "correctness": 0.0098,
+      "cl": 4,
+      "energy_mj": 134.12398053333163,
+      "elapsed_s": 36.182,
+      "failed_tests": [
+        "input_1.txt: output mismatch",
+        "input_2.txt: output mismatch",
+        "input_3.txt: output mismatch"
+      ]
+    },
+    {
+      "problem_id": "303322",
+      "tests_total": 103,
+      "tests_passed": 8,
+      "correctness": 0.0777,
+      "cl": 16,
+      "energy_mj": 186.41422502696514,
+      "elapsed_s": 15.062,
+      "failed_tests": [
+        "input_1.txt: rc=1 stderr=Traceback (most recent call last):\n  File \"benchmarks/runbugrun_py/data/problems/303322/buggy.py\", line 56, in <module>\n    if operat",
+        "input_2.txt: rc=1 stderr=Traceback (most recent call last):\n  File \"benchmarks/runbugrun_py/data/problems/303322/buggy.py\", line 56, in <module>\n    if operat",
+        "input_3.txt: rc=1 stderr=Traceback (most recent call last):\n  File \"benchmarks/runbugrun_py/data/problems/303322/buggy.py\", line 56, in <module>\n    if operat"
+      ]
+    },
+    {
+      "problem_id": "303469",
+      "tests_total": 103,
+      "tests_passed": 97,
+      "correctness": 0.9417,
+      "cl": 6,
+      "energy_mj": 197.8358039248389,
+      "elapsed_s": 14.11,
+      "failed_tests": [
+        "input_10.txt: output mismatch",
+        "input_11.txt: output mismatch",
+        "input_26.txt: output mismatch"
+      ]
+    }
+  ]
+}

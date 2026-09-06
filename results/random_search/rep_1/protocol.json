@@ -1,0 +1,37 @@
+{
+  "measurement_protocol": "codeflaws_two_phase_v3.1",
+  "protocol_doc": "docs/reports/measurement_protocol.md",
+  "git_commit": "b22230d1ff46140d5bede0b04578af65ed73d435",
+  "git_dirty": true,
+  "contract_sha256": {
+    "analyzer_contract.md": "a412c9c38d7eb93c89dacd069e62dac1103ebd0ae662f367363b7d020bb88186",
+    "repairer_contract.md": "3f697a9942307b09ef91c4a122fa92094fe8afa1dcff01fb9f5196376ba075aa",
+    "optimiser_contract_new.md": "24ed8c39e77a66dcb3e5589518f04a1afaf29e399df07852a477c38c6652ab0f"
+  },
+  "contract_language": "C99",
+  "written_at": "2026-08-14T23:49:38.753928+00:00",
+  "n_workers": 4,
+  "timeouts_effective": {
+    "llm_request_s": 300.0,
+    "compile_s": 30,
+    "run_s": 3
+  },
+  "seed": 100,
+  "seed_increment": 1,
+  "model": "qwen2.5-coder:1.5b",
+  "pop": 750,
+  "gen": 1,
+  "train_size": 50,
+  "mode": "random_search",
+  "matched_ga_run": "pop50_gen15_n50_v4",
+  "resumed_under": [
+    {
+      "written_at": "2026-08-15T00:49:11.489280+00:00",
+      "note": "resumed, same commit"
+    },
+    {
+      "written_at": "2026-08-15T01:11:43.379759+00:00",
+      "note": "resumed, same commit"
+    }
+  ]
+}

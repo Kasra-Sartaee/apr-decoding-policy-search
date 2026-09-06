@@ -1,0 +1,25 @@
+{
+  "measurement_protocol": "codeflaws_two_phase_v3.1",
+  "protocol_doc": "docs/reports/measurement_protocol.md",
+  "git_commit": "e96602ba32d78f50679ace39355721b6b015a834",
+  "git_dirty": true,
+  "contract_sha256": {
+    "analyzer_contract.md": "a412c9c38d7eb93c89dacd069e62dac1103ebd0ae662f367363b7d020bb88186",
+    "repairer_contract.md": "3f697a9942307b09ef91c4a122fa92094fe8afa1dcff01fb9f5196376ba075aa",
+    "optimiser_contract_new.md": "24ed8c39e77a66dcb3e5589518f04a1afaf29e399df07852a477c38c6652ab0f"
+  },
+  "contract_language": "C99",
+  "written_at": "2026-08-12T19:30:41.126171+00:00",
+  "n_workers": 4,
+  "timeouts_effective": {
+    "llm_request_s": 300.0,
+    "compile_s": 30,
+    "run_s": 3
+  },
+  "seed": 46,
+  "seed_increment": 1,
+  "model": "qwen2.5-coder:1.5b",
+  "pop": 50,
+  "gen": 15,
+  "train_size": 50
+}

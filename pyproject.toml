@@ -1,0 +1,147 @@
+# Build / packaging metadata — kept minimal because this is a research repo,
+# not a published package. The primary purpose of this file is to centralize
+# tool configuration (ruff, mypy, vulture, deptry) so that every contributor
+# and CI environment runs the same checks the same way.
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = ["agentic_workflow", "agents", "search_space", "provenance",
+              "telemetry", "inference_energy"]
+
+[tool.setuptools.packages.find]
+include = ["benchmarks*", "energy*"]
+
+[project]
+name = "apr-decoding-policy-search"
+version = "0.1.0"
+description = "Multi-objective search over the decoding policy of a multi-agent LLM pipeline for automated program repair"
+requires-python = ">=3.11"
+readme = "README.md"
+
+# Runtime deps, mirroring requirements.txt. The lower bounds are the versions
+# the reported runs and the published analysis executed under; see
+# requirements.txt for the provenance of each.
+dependencies = [
+    "ollama>=0.6.2",
+    "lizard>=1.23.0",
+    "pydantic>=2.13.4",
+    "pyyaml>=6.0.3",
+    "pymoo>=0.6.1.6",
+    "numpy>=2.4.6",
+    "pandas>=3.0.3",
+    "codecarbon>=3.2.8",
+    "nvidia-ml-py>=13.610.43",
+    "zeus-apple-silicon; sys_platform == 'darwin' and platform_machine == 'arm64'",
+]
+
+[project.optional-dependencies]
+analysis = ["matplotlib>=3.11.0", "seaborn>=0.13.2", "jupyter>=1.1.1",
+            "scikit-learn>=1.9.0", "scipy>=1.17.1"]
+dev = ["ruff", "mypy", "vulture", "deptry", "radon", "pytest"]
+# The surrogate arm runs in a separate interpreter (see README): botorch pins a
+# torch build, and installing it alongside the search stack is not required to
+# reproduce the analysis.
+mobo = ["botorch==0.18.1", "gpytorch==1.15.2", "torch==2.13.0"]
+
+# ----------------------------------------------------------------------------
+# ruff — linter + formatter, F+I+UP rule families
+# ----------------------------------------------------------------------------
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+extend-exclude = [
+    "outputs",
+    "benchmarks/*/data",
+    ".venv",
+    "__pycache__",
+]
+
+[tool.ruff.lint]
+# Conservative rule set. F = pyflakes (real bugs), I = isort (import order),
+# UP = pyupgrade (modernize syntax).
+select = ["F", "I", "UP"]
+# Tabs-and-spaces mixing is permitted: the pipeline modules inherited from the
+# original implementation are tab-indented, and reindenting them would obscure
+# their diff against that source.
+
+[tool.ruff.lint.per-file-ignores]
+# Notebooks can be noisier; permit unused-import (used for side effects).
+"analysis/*.ipynb" = ["F401"]
+
+# ----------------------------------------------------------------------------
+# mypy — type-check core pipeline; permissive defaults
+# ----------------------------------------------------------------------------
+[tool.mypy]
+python_version = "3.11"
+ignore_missing_imports = true
+# Scope: mypy runs here to catch undefined names, wrong call signatures and
+# genuine type contradictions. It is not run in strict mode, and the numeric
+# analysis code is deliberately not fully annotated — annotating it would not
+# make the reported numbers more trustworthy, and the artefact-level checks
+# that do (digest guards, feasibility filters, the fail-closed generators)
+# live in the code itself.
+#
+# Implicit Optional was deprecated in PEP 484; several functions here use
+# `arg: Type = None` rather than `Optional[Type] = None`, which is permitted.
+no_implicit_optional = false
+warn_unused_configs = true
+exclude = [
+    "outputs",
+    "benchmarks/.+/data",
+    ".venv",
+]
+
+# ----------------------------------------------------------------------------
+# vulture — dead-code detector
+# ----------------------------------------------------------------------------
+[tool.vulture]
+min_confidence = 70
+exclude = [
+    "outputs/",
+    ".venv/",
+]
+# Whitelist false positives caused by dynamic loading (importlib registry,
+# pymoo callbacks, pydantic metaclass introspection, enum members).
+ignore_decorators = ["@abstractmethod"]
+ignore_names = [
+    # Pydantic dataclass fields
+    "issue_id", "line_start", "line_end", "severity", "short_desc",
+    "compile_stdout", "compile_stderr", "tests_total", "tests_passed",
+    # SeverityType enum members
+    "LOW", "MEDIUM", "HIGH", "CRITICAL",
+    # pymoo callbacks
+    "_evaluate",
+    # Benchmark adapter classes loaded via importlib (benchmarks/registry.py)
+    "CodeflawsBenchmark",
+    # Convenience properties
+    "is_success",
+]
+
+# ----------------------------------------------------------------------------
+# deptry — dependency drift check
+# ----------------------------------------------------------------------------
+[tool.deptry]
+extend_exclude = [
+    "outputs",
+    "benchmarks/.+/data",
+    ".venv",
+]
+# Map import-name -> dist-name when they differ.
+package_module_name_map = { "zeus-apple-silicon" = "zeus_apple_silicon", "scikit-learn" = "sklearn" }
+# Notebook-only deps that aren't imported by .py files in the core pipeline.
+ignore = ["DEP002"]  # "unused dep" — jupyter is a runtime for the notebook
+# Sibling modules imported by name from notebooks / scripts that share sys.path
+
+known_first_party = ["utils", "telemetry", "agents", "agentic_workflow", "benchmarks", "energy"]
+
+# ----------------------------------------------------------------------------
+# pytest
+# ----------------------------------------------------------------------------
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = [
+    "integration: needs a benchmark corpus that is fetched on first use, not tracked",
+]
