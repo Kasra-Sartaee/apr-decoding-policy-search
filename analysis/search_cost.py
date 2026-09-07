@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Regenerate the search-cost table for dissertation section 5.4.
+"""Regenerate the search-cost accounting reported in docs/reports/search_cost.md.
 
 Reads only committed/on-disk run artefacts under outputs/ and writes
 docs/reports/search_cost.md. One invocation regenerates every number.

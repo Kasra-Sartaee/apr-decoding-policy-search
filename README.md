@@ -14,10 +14,90 @@ released separately (see **Data release** below).
 | `contracts/` | the six versioned prompt contracts, in full (Appendix C) |
 | `benchmarks/` | Codeflaws and RunBugRun adapters, with both pinned 300-problem sample manifests (§4.3) |
 | `energy/` | RAPL and proxy energy backends (§3.4.3) |
-| `scripts/` | the search drivers and evaluators |
+| `scripts/` | the search drivers, evaluators, launchers and generators — see *Scripts and modules* below |
+| `baselines/` | default-policy reference runs on both benchmarks, five repetitions each |
+| `tests/` | unit and measurement-protocol regression tests |
 | `results/` | the published search fronts, protocols and trajectories |
 | `analysis/` | the analysis notebook, its generator and the table scripts |
-| `docs/reports/` | the reports the dissertation cites: the measurement protocol (15), budget matching (19), the replicated comparison (20) and the search-cost accounting |
+| `docs/reports/` | the four reports the dissertation cites: the measurement protocol, budget matching, the replicated three-arm comparison and the search-cost accounting |
+
+## Scripts and modules
+
+Every tracked entry point and supporting module, and what it is for.
+
+### Pipeline
+
+| file | purpose |
+| --- | --- |
+| `agentic_workflow.py` | Orchestrates one repair attempt end to end: Analyzer → Repair → Verifier → Optimizer, with the two retry loops, and returns the three objectives for the retained source. |
+| `agents.py` | The agent classes and their Ollama calls. Loads the prompt contract for each stage, applies the candidate policy's decoding parameters, and holds the readers-writer gate that keeps local inference out of an open RAPL window. |
+| `search_space.py` | The 11-dimensional decision vector: bounds, types, and the decoder from a raw vector to a policy dictionary. Imported by all three drivers, so every arm provably searches the same space. |
+
+### Search drivers
+
+One repetition of one arm per invocation; all three write the same manifest and protocol format.
+
+| file | purpose |
+| --- | --- |
+| `scripts/run_nsga2.py` | The NSGA-II arm (§3.3.1), and the driver that produced the published `results/nsga2/` fronts. Resumable per generation. |
+| `scripts/run_random_search.py` | The uniform random-sampling control (§3.3.3). Verifies its budget, model and training split against the NSGA-II manifest before starting, so the comparison cannot silently drift. |
+| `scripts/run_mobo.py` | The qLogNEHVI surrogate arm (§3.3.2). Needs the `mobo` extra, which pins botorch and a matching torch build. |
+| `scripts/run_nsga2_runtime.py` | A secondary NSGA-II driver whose F3 defaults to the `runtime_proxy` backend rather than measured energy, so verifications can run concurrently. Useful on hosts without RAPL. Did not produce any reported result. |
+
+### Evaluators
+
+| file | purpose |
+| --- | --- |
+| `scripts/evaluate_heldout.py` | Re-evaluates every policy on a repetition's training Pareto front against a held-out problem set disjoint from the one searched. Resumable per policy; `--expect-heldout-sha256` pins the problem set by digest so an evaluation cannot run on the wrong problems. This produces the data release. |
+| `scripts/evaluate_baseline.py` | The same measurement path applied to the default policy, giving the reference each arm is compared against. Measured identically to the fronts so the contrast is meaningful. |
+
+### Launchers
+
+Thin wrappers recording exactly how the reported runs were invoked.
+
+| file | purpose |
+| --- | --- |
+| `scripts/launch_nsga2.sh` | Extends the NSGA-II arm from one repetition to five (seeds 42–46). Contains the pre-flight gate that refuses to start unless Ollama completes a real generation. |
+| `scripts/launch_random_search.sh` | The same for random search, seeds 99–103. |
+| `scripts/launch_mobo.sh` | The same for the surrogate arm, seeds 123–127. |
+| `scripts/launch_heldout_mobo_rep3.sh`, `scripts/launch_heldout_mobo_rep4.sh` | Held-out evaluation of the last two surrogate repetitions across both benchmarks, strictly serial: Codeflaws under real RAPL first, then the RunBugRun transfer. |
+
+### Benchmarks
+
+| file | purpose |
+| --- | --- |
+| `benchmarks/base.py` | The `Benchmark`, `Problem` and `TestRunner` abstractions, and the two-phase measurement path (concurrent Phase A, serialised Phase B inside one RAPL window). |
+| `benchmarks/registry.py` | Maps `--benchmark <name>` to an adapter, imported lazily. |
+| `benchmarks/codeflaws/adapter.py` | The Codeflaws C benchmark. Downloads and extracts the corpus, follows each problem's official `test-valid.sh` case list, and batches executions so a RAPL window clears the counter's resolution floor. |
+| `benchmarks/runbugrun_py/adapter.py` | The RunBugRun Python benchmark, with upstream release assets pinned by SHA-256 and groups its records by upstream task so the held-out split is independent. |
+
+### Measurement
+
+| file | purpose |
+| --- | --- |
+| `energy/backends.py` | The energy backends: Linux RAPL via sysfs, Apple Silicon, CodeCarbon, and the runtime proxy. |
+| `energy/detect.py` | Resolves `--energy-backend`, either by name or by picking the best available. Fails loudly when an explicitly named backend is unavailable. |
+| `inference_energy.py` | Secondary per-call inference-energy telemetry (CPU, and GPU via NVML). Descriptive only — it is never mixed into F3. |
+| `telemetry.py` | Per-LLM-call records: token counts, wall time, retry counts. |
+| `provenance.py` | Writes the commit, dirty flag, treatment and configuration into each run's `protocol.json`. See `PROVENANCE.md` for how to read the dirty flag. |
+
+### Analysis
+
+| file | purpose |
+| --- | --- |
+| `scripts/generators/build_three_arm_notebook.py` | Generates `analysis/three_arm_analysis.ipynb`. The notebook is generated, never hand-edited. |
+| `scripts/generators/export_report.py` | Called from the notebook's last cell; writes `docs/reports/replicated_three_arm_comparison.md` and its backing JSON from the executed results, so no number in the report is transcribed by hand. |
+| `analysis/pareto_table.py` | Emits the appendix table of selected Pareto policies, self-checking both problem-set digests and refusing to invent a record it cannot find. |
+| `analysis/search_cost.py` | Produced `docs/reports/search_cost.md`. Its telemetry inputs were not retained, so it now exits rather than overwrite the preserved report. |
+| `analysis/nsga2_vs_random_search_tables.py` | Auxiliary NSGA-II versus random-search quantities, predating the surrogate arm. Not a dissertation-table generator. |
+
+### Tests
+
+| file | purpose |
+| --- | --- |
+| `tests/test_measurement_protocol.py` | Regression tests for the v3.1 measurement path. |
+| `tests/test_python_arm_parity.py` | Checks the Python arm is measured like the C arm, and that the held-out split is disjoint by upstream task, not merely by record id. |
+| `tests/conftest.py` | Skips tests needing a benchmark corpus when it is absent, so the default run is green on a fresh clone. |
 
 ## Reproducing the reported numbers
 
