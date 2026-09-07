@@ -115,8 +115,8 @@ are released as an asset on the `v1.0` release of this repository:
 
 > **<https://github.com/Kasra-Sartaee/apr-decoding-policy-search/releases/download/v1.0/apr-decoding-policy-search-heldout-records-v1.tar.gz>**
 >
-> 26 MB compressed, 762 MB unpacked, 1,450 files.
-> SHA-256 `64daa669f2428df017bbbc66e35d3456b4a8e9345e63700dffdd0a317362dcb0`
+> 23 MB compressed, 762 MB unpacked, 1,450 files.
+> SHA-256 `8831aac8082b8220a7131fb54d7ff76fb4f2c2023357b6953d94f8db65707611`
 
 Unpack the archive at the repository root so that the following four trees
 exist. Nothing else from the archive is required by the analysis:
